@@ -4,7 +4,7 @@
 
 **Der Player, wie er früher war – nur schöner.**
 Klein, schnell, startet sofort und spielt so gut wie alles: Musik und Videos direkt im Fenster,
-Internetradio (über 50.000 Sender) mit Aufnahme, MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und
+Internetradio (über 50.000 Sender) mit Aufnahme, Audio-Cutter, MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und
 Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
@@ -37,6 +37,10 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 **Vollbild wie im Kino** – nur das Bild; bewegst du die Maus, blendet die Bedienleiste weich über dem Video ein und verschwindet wieder:
 
 <p><img src="docs/video-vollbild.png" alt="Vintamp – Video im Vollbild mit eingeblendeter Bedienleiste" width="790"></p>
+
+**Audio-Cutter** – Rechtsklick auf eine Audiodatei → „Schneiden …“: Wellenform, Titel aus Radio-Aufnahmen als Marken, verlustfrei speichern:
+
+<p><img src="docs/cutter.png" alt="Vintamp – Audio-Cutter mit Wellenform, Auswahl und Titelmarken" width="790"></p>
 
 **MIDI mit Spur-Ansicht** – jede Spur mit Instrument und Noten, einzeln stumm oder solo:
 
@@ -95,6 +99,22 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
   im Ordner zeigen, einzeln oder mehrere auf einmal in den Papierkorb (Entf, Rechtsklick oder Mülleimer)
 - Speicherort frei wählbar (Standard: Musik\Vintamp Aufnahmen)
 - Reißt die Verbindung kurz ab, verbindet Vintamp neu und nimmt in derselben Datei weiter auf
+- Die Titelwechsel des Senders schreibt Vintamp nebenher mit (CUE-Datei) – im Cutter erscheinen sie als Marken
+
+**Audio-Cutter**
+- Rechtsklick auf eine Audiodatei (Musikliste oder Aufnahme) → „Schneiden …“ öffnet den Reiter „Schnitt“
+- Große Wellenform mit Zoom und Übersicht; Bereich mit der Maus markieren, Anfang und Ende auch auf die
+  Zehntelsekunde eintippen (oder I / O an der Abspielposition)
+- Auswahl behalten (trimmen) oder herausschneiden – beliebig oft, mit Rückgängig und Wiederholen
+- Ein- und Ausblenden, Tempo 0,5–2× ohne Mickymaus-Stimme, Tonhöhe ±12 Halbtöne ohne Tempoänderung,
+  10-Band-EQ mit Voreinstellungen, Lautstärke und „alles gleich laut“ (−14 LUFS)
+- Alles vorhören, die Auswahl auch in Schleife
+- Speichern als neue Datei oder anstelle des Originals (das alte wandert in den Papierkorb) – MP3, FLAC, WAV, Ogg;
+  Tags und Cover werden übernommen
+- **Verlustfrei:** Nur geschnittene MP3/AAC werden rahmengenau kopiert – keine Qualitätsverluste,
+  eine Stunde ist in Sekundenbruchteilen gespeichert
+- **Radio-Aufnahmen:** Ein Klick auf eine Marke wählt den ganzen Song, der Dateiname „Interpret - Titel“
+  ist schon ausgefüllt; nach dem Schneiden passt Vintamp die Marken an
 
 **MIDI**
 - MIDI-Dateien (.mid, .midi, .kar) abspielen – mit Equalizer, Spulen und Visualizer wie jede andere Datei
@@ -136,11 +156,10 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 | | Funktion | Darum geht's |
 |---|---|---|
-| 1 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
-| 2 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 3 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
-| 4 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
-| 5 | **Linux & macOS** | Vintamp auf allen drei Systemen |
+| 1 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
+| 2 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
+| 3 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
+| 4 | **Linux & macOS** | Vintamp auf allen drei Systemen |
 
 ## Ideen für später
 
@@ -162,6 +181,8 @@ Was noch denkbar ist – ohne feste Reihenfolge:
   im Takt überblenden, Bässe sauber tauschen, verschiedene Übergangsstile
 - **DJ-Modus:** selbst auflegen mit zwei Decks, Mischpult mit Crossfader, Sync, Pitch, EQ und Filter
   je Deck, Effekte, Sample-Pads zum Drauflegen und Wellenform-Anzeige
+- **Mehrspur im Cutter:** mehrere Dateien markieren → jede wird eine eigene Spur, verschieben,
+  übereinanderlegen und zu einer Datei zusammenmischen
 
 ---
 

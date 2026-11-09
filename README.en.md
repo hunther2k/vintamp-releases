@@ -4,7 +4,7 @@
 
 **The player like it used to be – only prettier.**
 Small, fast, starts instantly and plays just about anything: music and videos right in the window,
-internet radio (more than 50,000 stations) with recording, MIDI with a track view, 10-band equalizer, 16 visualizers
+internet radio (more than 50,000 stations) with recording, an audio cutter, MIDI with a track view, 10-band equalizer, 16 visualizers
 and a mini mode – in a modern dark design. In English and German.
 
 **[⬇ Download the latest version for Windows](https://github.com/hunther2k/vintamp-releases/releases/latest)**
@@ -39,6 +39,10 @@ and a mini mode – in a modern dark design. In English and German.
 **Full screen like at the movies** – just the picture; move the mouse and the control bar fades in smoothly over the video and disappears again:
 
 <p><img src="docs/video-vollbild.png" alt="Vintamp – video in full screen with the control bar shown" width="790"></p>
+
+**Audio cutter** – right-click an audio file → “Cut …”: waveform, tracks of radio recordings as markers, lossless saving:
+
+<p><img src="docs/cutter.png" alt="Vintamp – audio cutter with waveform, selection and track markers" width="790"></p>
 
 **MIDI with a track view** – every track with its instrument and notes, mute or solo each one:
 
@@ -97,6 +101,22 @@ and a mini mode – in a modern dark design. In English and German.
   show in folder, move one or several to the Recycle Bin at once (Del, right-click or trash can)
 - Choose where to save (default: Music\Vintamp Aufnahmen)
 - If the connection drops briefly, Vintamp reconnects and keeps recording into the same file
+- Vintamp also notes the station's track changes (CUE file) – the cutter shows them as markers
+
+**Audio cutter**
+- Right-click an audio file (music list or recording) → “Cut …” opens the “Cut” tab
+- Large waveform with zoom and overview; select a range with the mouse, or type start and end
+  to a tenth of a second (or I / O at the play position)
+- Keep the selection (trim) or cut it out – as often as you like, with undo and redo
+- Fade in and out, tempo 0.5–2× without chipmunk voices, pitch ±12 semitones without changing the tempo,
+  10-band EQ with presets, volume and “everything equally loud” (−14 LUFS)
+- Preview everything, loop the selection
+- Save as a new file or in place of the original (the old one goes to the Recycle Bin) – MP3, FLAC, WAV, Ogg;
+  tags and cover are kept
+- **Lossless:** MP3/AAC that are only cut get copied frame by frame – no quality loss,
+  an hour is saved in a fraction of a second
+- **Radio recordings:** one click on a marker selects the whole song, the file name “Artist - Title”
+  is already filled in; after cutting, Vintamp adjusts the markers
 
 **MIDI**
 - Play MIDI files (.mid, .midi, .kar) – with equalizer, seeking and visualizer like any other file
@@ -138,11 +158,10 @@ and a mini mode – in a modern dark design. In English and German.
 
 | | Feature | What it's about |
 |---|---|---|
-| 1 | **Quick cut** | Waveform view: trim the start or end, remove a part in the middle, fade in and out – MP3s without quality loss |
-| 2 | **Tag editor** | Edit title, artist, album, year, genre, track number and cover – also for many files at once, take tags from the file name |
-| 3 | **YouTube Music** | Use your YouTube Music library in Vintamp |
-| 4 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
-| 5 | **Linux & macOS** | Vintamp on all three systems |
+| 1 | **Tag editor** | Edit title, artist, album, year, genre, track number and cover – also for many files at once, take tags from the file name |
+| 2 | **YouTube Music** | Use your YouTube Music library in Vintamp |
+| 3 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
+| 4 | **Linux & macOS** | Vintamp on all three systems |
 
 ## Ideas for later
 
@@ -164,6 +183,8 @@ What else is possible – in no particular order:
   crossfade on the beat, swap the bass cleanly, different transition styles
 - **DJ mode:** mix yourself with two decks, a mixer with crossfader, sync, pitch, EQ and filter
   per deck, effects, sample pads and waveform display
+- **Multitrack in the cutter:** select several files → each becomes its own track, move them,
+  layer them and mix them down into one file
 
 ---
 

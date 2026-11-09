@@ -3,7 +3,7 @@
 **Der Player, wie er früher war – nur schöner.**
 Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Internetradio
 (über 50.000 Sender), MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizern und Mini-Modus –
-im modernen dunklen Design.
+im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
@@ -36,7 +36,8 @@ im modernen dunklen Design.
 
 **Abspielen**
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
-- Videodateien (MP4, MKV, WebM …) öffnen sich vorerst in einem eigenen Fenster
+- Videodateien (MP4, MKV, WebM …) öffnen sich vorerst in einem eigenen Fenster;
+  Schließen des Fensters stoppt das Video, Vintamp läuft normal weiter
 - Display mit Leuchtziffern: Spielzeit (Klick wechselt zwischen verstrichen und verbleibend),
   Lauftext mit Interpret und Titel, Bitrate, Abtastrate und Kanäle
 
@@ -82,6 +83,8 @@ im modernen dunklen Design.
   automatisch nach Fensterbreite oder fest 1–6 Spalten
 - Mini-Modus als schmale Leiste und „Immer im Vordergrund“
 - Medientasten der Tastatur und klassische Tastenkürzel (Z X C V B)
+- **Deutsch und Englisch:** Vintamp folgt der Windows-Sprache; umschaltbar im Über-Dialog
+  (Klick auf die Versionsnummer) – sofort, ohne Neustart. Den Installer gibt es ebenfalls in beiden Sprachen
 
 **Updates**
 - Vintamp sucht selbst nach neuen Versionen und installiert sie auf Knopfdruck

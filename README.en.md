@@ -23,12 +23,12 @@ and a mini mode – in a modern dark design. In English and German.
 
 <p><img src="docs/breit.png" alt="Vintamp – wide view with station list and large visualizer" width="790"></p>
 
-**Radio recording** – one click on ●, the broadcast is saved losslessly in one file:
+**Radio recording** – one click on ●, the broadcast is saved losslessly in one file; all recordings in their own section:
 
 <p>
   <img src="docs/aufnahme.png" alt="Vintamp – radio recording in progress" width="390">
   &nbsp;
-  <img src="docs/aufnahme-dialog.png" alt="Vintamp – radio recording dialog with folder and recent recordings" width="390">
+  <img src="docs/aufnahmen.png" alt="Vintamp – recordings section with a running and finished recordings" width="390">
 </p>
 
 **Videos right in the window** – with subtitles, audio track selection and speed; click the picture to pause, double-click for full screen:
@@ -75,7 +75,8 @@ and a mini mode – in a modern dark design. In English and German.
 - Double-clicking a music file in Explorer plays it in the running Vintamp – no second window
 - When the track changes, the current one moves to the middle – so you see what's coming next
 - Title, artist and length are read from the tags
-- Search, multi-select, reorder with the mouse
+- Search, multi-select (Ctrl/Shift), reorder with the mouse
+- Remove one or several tracks from the list – Del, right-click or trash can (without a selection it clears the list)
 - Shuffle, repeat (all or one track)
 - Kept for the next start
 
@@ -92,7 +93,9 @@ and a mini mode – in a modern dark design. In English and German.
 - Lossless, exactly as broadcast (no re-encoding) – whether you're listening or not
 - The broadcast is saved in one file, e.g. “Music\Vintamp Aufnahmen\1LIVE\1LIVE 2026-11-09 22-41.mp3” –
   cut it later with an audio editor
-- Choose where to save, list of recent recordings – one click plays them
+- Own “Recordings” section in the radio: all recordings with station, date, length and size – play,
+  show in folder, move one or several to the Recycle Bin at once (Del, right-click or trash can)
+- Choose where to save (default: Music\Vintamp Aufnahmen)
 - If the connection drops briefly, Vintamp reconnects and keeps recording into the same file
 
 **MIDI**

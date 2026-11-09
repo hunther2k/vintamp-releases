@@ -21,12 +21,12 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
 
-**Radio-Aufnahme** – ein Klick auf ●, die Sendung landet verlustfrei in einer Datei:
+**Radio-Aufnahme** – ein Klick auf ●, die Sendung landet verlustfrei in einer Datei; alle Aufnahmen im eigenen Bereich:
 
 <p>
   <img src="docs/aufnahme.png" alt="Vintamp – Radio-Aufnahme läuft" width="390">
   &nbsp;
-  <img src="docs/aufnahme-dialog.png" alt="Vintamp – Dialog Radio-Aufnahme mit Speicherort und letzten Aufnahmen" width="390">
+  <img src="docs/aufnahmen.png" alt="Vintamp – Bereich Aufnahmen mit laufender und fertigen Aufnahmen" width="390">
 </p>
 
 **Videos direkt im Fenster** – mit Untertiteln, Tonspur-Wahl und Geschwindigkeit; Klick ins Bild pausiert, Doppelklick schaltet auf Vollbild:
@@ -73,7 +73,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Doppelklick auf eine Musikdatei im Explorer spielt sie im laufenden Vintamp – kein zweites Fenster
 - Beim Titelwechsel rückt der aktuelle Titel in die Mitte – man sieht, was als Nächstes kommt
 - Titel, Interpret und Länge werden aus den Tags gelesen
-- Suche, Mehrfachauswahl, Reihenfolge per Maus ändern
+- Suche, Mehrfachauswahl (Strg/Umschalt), Reihenfolge per Maus ändern
+- Titel einzeln oder mehrere aus der Liste entfernen – Entf, Rechtsklick oder Mülleimer (ohne Auswahl leert er die Liste)
 - Zufallswiedergabe, Wiederholen (alle oder einen Titel)
 - Bleibt beim nächsten Start erhalten
 
@@ -90,7 +91,9 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Verlustfrei, wie gesendet (ohne Umwandlung) – und unabhängig davon, ob du gerade zuhörst
 - Die Sendung landet am Stück in einer Datei, z. B. „Musik\Vintamp Aufnahmen\1LIVE\1LIVE 2026-11-09 22-41.mp3“ –
   zerschneiden kannst du sie später mit einem Schnittprogramm
-- Speicherort frei wählbar, Liste der letzten Aufnahmen – ein Klick spielt ab
+- Eigener Bereich „Aufnahmen“ im Radio: alle Aufnahmen mit Sender, Datum, Länge und Größe – abspielen,
+  im Ordner zeigen, einzeln oder mehrere auf einmal in den Papierkorb (Entf, Rechtsklick oder Mülleimer)
+- Speicherort frei wählbar (Standard: Musik\Vintamp Aufnahmen)
 - Reißt die Verbindung kurz ab, verbindet Vintamp neu und nimmt in derselben Datei weiter auf
 
 **MIDI**

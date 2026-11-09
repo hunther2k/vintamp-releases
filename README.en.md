@@ -48,7 +48,7 @@ and a mini mode – in a modern dark design. In English and German.
 - Videos (MP4, MKV, WebM, AVI …) play right inside the Vintamp window in the “Video” tab – player
   on top, video list below; with a
   slim bar (time and seeking stay up in the player); click the picture to pause, double-click or F
-  for full screen, Esc to go back – in full screen the bar fades out after 3 seconds without mouse movement
+  toggles full screen, Esc to go back – in full screen the bar only appears when you move the mouse
 - Turn subtitles on and off or load a subtitle file (SRT, ASS, VTT …) – matching files next to the
   video are found automatically; choose the audio track or language (with readable names like
   “German – forced”); speed from 0.5× to 2× without chipmunk voices

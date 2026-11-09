@@ -46,7 +46,7 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – oben der
   Player, darunter die Videoliste; mit
   schlanker Leiste (Zeit und Spulen oben im Player); Klick ins Bild pausiert, Doppelklick oder F
-  schaltet auf Vollbild, Esc zurück – im Vollbild blendet die Leiste nach 3 Sekunden ohne Mausbewegung aus
+  schaltet Vollbild an und aus, Esc zurück – im Vollbild erscheint die Leiste nur, wenn du die Maus bewegst
 - Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende
   Dateien neben dem Video findet Vintamp selbst; Tonspur bzw. Sprache wählen (mit verständlichen Namen wie „Deutsch – erzwungen“); Geschwindigkeit 0,5× bis 2×
   ohne Mickymaus-Stimme

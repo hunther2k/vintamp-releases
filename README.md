@@ -1,14 +1,14 @@
 # Vintamp
 
 **Der Player, wie er früher war – nur schöner.**
-Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Internetradio
-(über 50.000 Sender), MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizern und Mini-Modus –
-im modernen dunklen Design. Auf Deutsch und Englisch.
+Klein, schnell, startet sofort und spielt so gut wie alles: Musik und Videos direkt im Fenster,
+Internetradio (über 50.000 Sender), MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und
+Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
-  <img src="docs/player.png" alt="Vintamp – Player mit Playlist" width="250">
+  <img src="docs/player.png" alt="Vintamp – Player mit Playlist, getrennt nach Musik und Videos" width="250">
   &nbsp;
   <img src="docs/radio.png" alt="Vintamp – Internetradio mit „Jetzt läuft“" width="250">
   &nbsp;
@@ -18,6 +18,11 @@ im modernen dunklen Design. Auf Deutsch und Englisch.
 **Maximiert oder im Vollbild** – Player und großer Visualizer links, Senderliste mehrspaltig rechts:
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
+
+**Videos direkt im Fenster** – mit eigener Bedienleiste, Doppelklick schaltet auf Vollbild:
+
+<p><img src="docs/video.png" alt="Vintamp – Video im Vintamp-Fenster" width="790"><br>
+<sub>Im Bild: „Big Buck Bunny“ © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub></p>
 
 **MIDI mit Spur-Ansicht** – jede Spur mit Instrument und Noten, einzeln stumm oder solo:
 
@@ -36,12 +41,14 @@ im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **Abspielen**
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
-- Videodateien (MP4, MKV, WebM …) öffnen sich vorerst in einem eigenen Fenster;
-  Schließen des Fensters stoppt das Video, Vintamp läuft normal weiter
+- Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – mit
+  eigener Bedienleiste; Klick ins Bild pausiert, Doppelklick oder F schaltet auf Vollbild, Esc zurück
 - Display mit Leuchtziffern: Spielzeit (Klick wechselt zwischen verstrichen und verbleibend),
   Lauftext mit Interpret und Titel, Bitrate, Abtastrate und Kanäle
 
 **Playlist**
+- Getrennte Listen für **Musik** und **Videos** – Weiter, Zurück und Zufall bleiben in der Liste,
+  aus der gerade gespielt wird
 - Dateien oder ganze Ordner einfach ins Fenster ziehen
 - Doppelklick auf eine Musikdatei im Explorer spielt sie im laufenden Vintamp – kein zweites Fenster
 - Beim Titelwechsel rückt der aktuelle Titel in die Mitte – man sieht, was als Nächstes kommt
@@ -99,7 +106,7 @@ im modernen dunklen Design. Auf Deutsch und Englisch.
 | 1 | **Radio-Aufnahme** | Sendungen mitschneiden – automatisch in einzelne Titel aufgeteilt und mit Interpret und Titel versehen |
 | 2 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
 | 3 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 4 | **Videoplayer im Fenster** | Videos direkt in Vintamp, mit Untertiteln, Vollbild und Wiedergabegeschwindigkeit |
+| 4 | **Video-Extras** | Untertitel ein- und ausblenden, Tonspur wählen, Wiedergabegeschwindigkeit |
 | 5 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
 | 6 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
 | 7 | **Linux & macOS** | Vintamp auf allen drei Systemen |

@@ -1,3 +1,5 @@
+**🇩🇪 Deutsch** | [🇬🇧 English](README.en.md)
+
 # Vintamp
 
 **Der Player, wie er früher war – nur schöner.**

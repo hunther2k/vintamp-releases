@@ -21,10 +21,14 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
 
-**Videos direkt im Fenster** – mit eigener Bedienleiste, Untertiteln, Tonspur-Wahl und Geschwindigkeit; Doppelklick schaltet auf Vollbild:
+**Videos direkt im Fenster** – mit Untertiteln, Tonspur-Wahl und Geschwindigkeit; Klick ins Bild pausiert, Doppelklick schaltet auf Vollbild:
 
 <p><img src="docs/video.png" alt="Vintamp – Video im Vintamp-Fenster" width="790"><br>
 <sub>Im Bild: „Big Buck Bunny“ © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub></p>
+
+**Vollbild wie im Kino** – nur das Bild; bewegst du die Maus, blendet die Bedienleiste weich über dem Video ein und verschwindet wieder:
+
+<p><img src="docs/video-vollbild.png" alt="Vintamp – Video im Vollbild mit eingeblendeter Bedienleiste" width="790"></p>
 
 **MIDI mit Spur-Ansicht** – jede Spur mit Instrument und Noten, einzeln stumm oder solo:
 
@@ -46,7 +50,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – oben der
   Player, darunter die Videoliste; mit
   schlanker Leiste (Zeit und Spulen oben im Player); Klick ins Bild pausiert, Doppelklick oder F
-  schaltet Vollbild an und aus, Esc zurück – im Vollbild erscheint die Leiste nur, wenn du die Maus bewegst
+  schaltet Vollbild an und aus, Esc zurück – im Vollbild nur das Bild: bei Mausbewegung blendet die
+  Bedienleiste (Spulen, Zeit, Weiter/Zurück, Untertitel, Lautstärke) weich darüber ein und wieder aus
 - Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende
   Dateien neben dem Video findet Vintamp selbst; Tonspur bzw. Sprache wählen (mit verständlichen Namen wie „Deutsch – erzwungen“); Geschwindigkeit 0,5× bis 2×
   ohne Mickymaus-Stimme

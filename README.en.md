@@ -23,10 +23,14 @@ and a mini mode – in a modern dark design. In English and German.
 
 <p><img src="docs/breit.png" alt="Vintamp – wide view with station list and large visualizer" width="790"></p>
 
-**Videos right in the window** – with its own control bar, subtitles, audio track selection and speed; double-click for full screen:
+**Videos right in the window** – with subtitles, audio track selection and speed; click the picture to pause, double-click for full screen:
 
 <p><img src="docs/video.png" alt="Vintamp – video inside the Vintamp window" width="790"><br>
 <sub>Shown: “Big Buck Bunny” © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub></p>
+
+**Full screen like at the movies** – just the picture; move the mouse and the control bar fades in smoothly over the video and disappears again:
+
+<p><img src="docs/video-vollbild.png" alt="Vintamp – video in full screen with the control bar shown" width="790"></p>
 
 **MIDI with a track view** – every track with its instrument and notes, mute or solo each one:
 
@@ -48,7 +52,8 @@ and a mini mode – in a modern dark design. In English and German.
 - Videos (MP4, MKV, WebM, AVI …) play right inside the Vintamp window in the “Video” tab – player
   on top, video list below; with a
   slim bar (time and seeking stay up in the player); click the picture to pause, double-click or F
-  toggles full screen, Esc to go back – in full screen the bar only appears when you move the mouse
+  toggles full screen, Esc to go back – full screen shows just the picture: move the mouse and the
+  control bar (seeking, time, next/previous, subtitles, volume) fades in over it and out again
 - Turn subtitles on and off or load a subtitle file (SRT, ASS, VTT …) – matching files next to the
   video are found automatically; choose the audio track or language (with readable names like
   “German – forced”); speed from 0.5× to 2× without chipmunk voices

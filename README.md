@@ -82,6 +82,7 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Klick auf den Visualizer schaltet zur nächsten Darstellung, **Rechtsklick** öffnet das Auswahlmenü
   mit allen Darstellungen und Farben
 - Display und großer Visualizer merken sich ihre Darstellung getrennt
+- Während ein Video läuft, treten die Visualizer zurück – das Bild hat Vorrang
 
 **Bedienung**
 - Maximiert oder im Vollbild (F11) zweispaltig: Player und großer Visualizer links,

@@ -42,9 +42,10 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 **Abspielen**
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
 - Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – mit
-  eigener Bedienleiste; Klick ins Bild pausiert, Doppelklick oder F schaltet auf Vollbild, Esc zurück
+  schlanker Leiste (Zeit und Spulen oben im Player); Klick ins Bild pausiert, Doppelklick oder F
+  schaltet auf Vollbild, Esc zurück – im Vollbild blendet die Leiste nach 3 Sekunden ohne Mausbewegung aus
 - Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende
-  Dateien neben dem Video findet Vintamp selbst; Tonspur bzw. Sprache wählen; Geschwindigkeit 0,5× bis 2×
+  Dateien neben dem Video findet Vintamp selbst; Tonspur bzw. Sprache wählen (mit verständlichen Namen wie „Deutsch – erzwungen“); Geschwindigkeit 0,5× bis 2×
   ohne Mickymaus-Stimme
 - Display mit Leuchtziffern: Spielzeit (Klick wechselt zwischen verstrichen und verbleibend),
   Lauftext mit Interpret und Titel, Bitrate, Abtastrate und Kanäle

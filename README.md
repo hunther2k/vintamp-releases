@@ -10,7 +10,7 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
-  <img src="docs/player.png" alt="Vintamp – Player mit Playlist, getrennt nach Musik und Videos" width="250">
+  <img src="docs/player.png" alt="Vintamp – Player mit Musikliste" width="250">
   &nbsp;
   <img src="docs/radio.png" alt="Vintamp – Internetradio mit „Jetzt läuft“" width="250">
   &nbsp;
@@ -43,7 +43,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **Abspielen**
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
-- Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – mit
+- Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – oben der
+  Player, darunter die Videoliste; mit
   schlanker Leiste (Zeit und Spulen oben im Player); Klick ins Bild pausiert, Doppelklick oder F
   schaltet auf Vollbild, Esc zurück – im Vollbild blendet die Leiste nach 3 Sekunden ohne Mausbewegung aus
 - Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende
@@ -53,8 +54,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
   Lauftext mit Interpret und Titel, Bitrate, Abtastrate und Kanäle
 
 **Playlist**
-- Getrennte Listen für **Musik** und **Videos** – Weiter, Zurück und Zufall bleiben in der Liste,
-  aus der gerade gespielt wird
+- Eigene Reiter: **Musik** für die Musikliste, **Video** für Videoliste und Player – Weiter, Zurück
+  und Zufall bleiben in der Liste, aus der gerade gespielt wird
 - Dateien oder ganze Ordner einfach ins Fenster ziehen
 - Doppelklick auf eine Musikdatei im Explorer spielt sie im laufenden Vintamp – kein zweites Fenster
 - Beim Titelwechsel rückt der aktuelle Titel in die Mitte – man sieht, was als Nächstes kommt

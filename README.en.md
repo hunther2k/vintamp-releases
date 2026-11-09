@@ -10,7 +10,7 @@ and a mini mode – in a modern dark design. In English and German.
 **[⬇ Download the latest version for Windows](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
-  <img src="docs/player.png" alt="Vintamp – player with playlist, split into music and videos" width="250">
+  <img src="docs/player.png" alt="Vintamp – player with music list" width="250">
   &nbsp;
   <img src="docs/radio.png" alt="Vintamp – internet radio with “now playing”" width="250">
   &nbsp;
@@ -45,7 +45,8 @@ and a mini mode – in a modern dark design. In English and German.
 
 **Playback**
 - Plays practically every audio format: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE and more
-- Videos (MP4, MKV, WebM, AVI …) play right inside the Vintamp window in the “Video” tab – with a
+- Videos (MP4, MKV, WebM, AVI …) play right inside the Vintamp window in the “Video” tab – player
+  on top, video list below; with a
   slim bar (time and seeking stay up in the player); click the picture to pause, double-click or F
   for full screen, Esc to go back – in full screen the bar fades out after 3 seconds without mouse movement
 - Turn subtitles on and off or load a subtitle file (SRT, ASS, VTT …) – matching files next to the
@@ -55,8 +56,8 @@ and a mini mode – in a modern dark design. In English and German.
   scrolling artist and title, bitrate, sample rate and channels
 
 **Playlist**
-- Separate lists for **music** and **videos** – next, previous and shuffle stay in the list
-  that is currently playing
+- Separate tabs: **Music** for the music list, **Video** for the video list and player – next,
+  previous and shuffle stay in the list that is currently playing
 - Simply drag files or whole folders into the window
 - Double-clicking a music file in Explorer plays it in the running Vintamp – no second window
 - When the track changes, the current one moves to the middle – so you see what's coming next

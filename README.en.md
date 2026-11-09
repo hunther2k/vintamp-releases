@@ -4,7 +4,7 @@
 
 **The player like it used to be – only prettier.**
 Small, fast, starts instantly and plays just about anything: music and videos right in the window,
-internet radio (more than 50,000 stations), MIDI with a track view, 10-band equalizer, 16 visualizers
+internet radio (more than 50,000 stations) with recording, MIDI with a track view, 10-band equalizer, 16 visualizers
 and a mini mode – in a modern dark design. In English and German.
 
 **[⬇ Download the latest version for Windows](https://github.com/hunther2k/vintamp-releases/releases/latest)**
@@ -22,6 +22,14 @@ and a mini mode – in a modern dark design. In English and German.
 **Maximized or full screen** – player and large visualizer on the left, station list in several columns on the right:
 
 <p><img src="docs/breit.png" alt="Vintamp – wide view with station list and large visualizer" width="790"></p>
+
+**Radio recording** – one click on ●, the broadcast is saved losslessly in one file:
+
+<p>
+  <img src="docs/aufnahme.png" alt="Vintamp – radio recording in progress" width="390">
+  &nbsp;
+  <img src="docs/aufnahme-dialog.png" alt="Vintamp – radio recording dialog with folder and recent recordings" width="390">
+</p>
 
 **Videos right in the window** – with subtitles, audio track selection and speed; click the picture to pause, double-click for full screen:
 
@@ -79,6 +87,14 @@ and a mini mode – in a modern dark design. In English and German.
 - Next/previous switches the station
 - Vintamp remembers the last station – press play after restarting and it continues
 
+**Radio recording**
+- Record the current station with one click on ● – “REC” blinks in the display, the time runs along
+- Lossless, exactly as broadcast (no re-encoding) – whether you're listening or not
+- The broadcast is saved in one file, e.g. “Music\Vintamp Aufnahmen\1LIVE\1LIVE 2026-11-09 22-41.mp3” –
+  cut it later with an audio editor
+- Choose where to save, list of recent recordings – one click plays them
+- If the connection drops briefly, Vintamp reconnects and keeps recording into the same file
+
 **MIDI**
 - Play MIDI files (.mid, .midi, .kar) – with equalizer, seeking and visualizer like any other file
 - The track view opens right away when a MIDI file starts: every track with its instrument and
@@ -119,12 +135,11 @@ and a mini mode – in a modern dark design. In English and German.
 
 | | Feature | What it's about |
 |---|---|---|
-| 1 | **Radio recording** | Record broadcasts – automatically split into single tracks and tagged with artist and title |
-| 2 | **Quick cut** | Waveform view: trim the start or end, remove a part in the middle, fade in and out – MP3s without quality loss |
-| 3 | **Tag editor** | Edit title, artist, album, year, genre, track number and cover – also for many files at once, take tags from the file name |
-| 4 | **YouTube Music** | Use your YouTube Music library in Vintamp |
-| 5 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
-| 6 | **Linux & macOS** | Vintamp on all three systems |
+| 1 | **Quick cut** | Waveform view: trim the start or end, remove a part in the middle, fade in and out – MP3s without quality loss |
+| 2 | **Tag editor** | Edit title, artist, album, year, genre, track number and cover – also for many files at once, take tags from the file name |
+| 3 | **YouTube Music** | Use your YouTube Music library in Vintamp |
+| 4 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
+| 5 | **Linux & macOS** | Vintamp on all three systems |
 
 ## Ideas for later
 

@@ -4,7 +4,7 @@
 
 **Der Player, wie er früher war – nur schöner.**
 Klein, schnell, startet sofort und spielt so gut wie alles: Musik und Videos direkt im Fenster,
-Internetradio (über 50.000 Sender), MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und
+Internetradio (über 50.000 Sender) mit Aufnahme, MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und
 Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
@@ -20,6 +20,14 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 **Maximiert oder im Vollbild** – Player und großer Visualizer links, Senderliste mehrspaltig rechts:
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
+
+**Radio-Aufnahme** – ein Klick auf ●, die Sendung landet verlustfrei in einer Datei:
+
+<p>
+  <img src="docs/aufnahme.png" alt="Vintamp – Radio-Aufnahme läuft" width="390">
+  &nbsp;
+  <img src="docs/aufnahme-dialog.png" alt="Vintamp – Dialog Radio-Aufnahme mit Speicherort und letzten Aufnahmen" width="390">
+</p>
 
 **Videos direkt im Fenster** – mit Untertiteln, Tonspur-Wahl und Geschwindigkeit; Klick ins Bild pausiert, Doppelklick schaltet auf Vollbild:
 
@@ -77,6 +85,14 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Weiter/Zurück wechselt den Sender
 - Vintamp merkt sich den letzten Sender – Play beim nächsten Start spielt ihn weiter
 
+**Radio-Aufnahme**
+- Den laufenden Sender mit einem Klick auf ● mitschneiden – „REC“ blinkt im Display, die Zeit läuft mit
+- Verlustfrei, wie gesendet (ohne Umwandlung) – und unabhängig davon, ob du gerade zuhörst
+- Die Sendung landet am Stück in einer Datei, z. B. „Musik\Vintamp Aufnahmen\1LIVE\1LIVE 2026-11-09 22-41.mp3“ –
+  zerschneiden kannst du sie später mit einem Schnittprogramm
+- Speicherort frei wählbar, Liste der letzten Aufnahmen – ein Klick spielt ab
+- Reißt die Verbindung kurz ab, verbindet Vintamp neu und nimmt in derselben Datei weiter auf
+
 **MIDI**
 - MIDI-Dateien (.mid, .midi, .kar) abspielen – mit Equalizer, Spulen und Visualizer wie jede andere Datei
 - Spur-Ansicht öffnet sich beim Start einer MIDI direkt: jede Spur mit Instrument und ihren Noten,
@@ -117,12 +133,11 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 | | Funktion | Darum geht's |
 |---|---|---|
-| 1 | **Radio-Aufnahme** | Sendungen mitschneiden – automatisch in einzelne Titel aufgeteilt und mit Interpret und Titel versehen |
-| 2 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
-| 3 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 4 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
-| 5 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
-| 6 | **Linux & macOS** | Vintamp auf allen drei Systemen |
+| 1 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
+| 2 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
+| 3 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
+| 4 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
+| 5 | **Linux & macOS** | Vintamp auf allen drei Systemen |
 
 ## Ideen für später
 

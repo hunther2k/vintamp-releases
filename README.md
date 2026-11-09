@@ -43,6 +43,12 @@ Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 - Weiter/Zurück wechselt den Sender
 - Vintamp merkt sich den letzten Sender – Play beim nächsten Start spielt ihn weiter
 
+**MIDI**
+- MIDI-Dateien (.mid, .midi, .kar) abspielen – mit Equalizer, Spulen und Visualizer wie jede andere Datei
+- Spur-Ansicht: jede Spur mit Instrument und ihren Noten, Klick springt an die Stelle
+- Einzelne Spuren stumm oder solo schalten – Vintamp mischt neu und spielt nahtlos weiter
+- Die Klangbibliothek wird beim ersten MIDI einmalig geladen (31 MB) – oder eigene SoundFont wählen
+
 **Klang**
 - 10-Band-Equalizer mit Vorverstärker – Änderungen wirken sofort, ohne Knacken
 - 12 Voreinstellungen (Rock, Pop, Jazz, Klassik, Bass-Boost, Stimme, Kopfhörer …)
@@ -115,3 +121,10 @@ Von Hand: Klick auf die Versionsnummer oben links → **Nach Updates suchen**.
 
 Etwas funktioniert nicht oder du hast eine Idee?
 Schreib es gern als [Issue](https://github.com/hunther2k/vintamp-releases/issues).
+
+## Danke
+
+- Wiedergabe: [mpv](https://mpv.io)
+- Internetradio-Verzeichnis: [radio-browser.info](https://www.radio-browser.info)
+- MIDI-Klänge: [GeneralUser GS](https://schristiancollins.com/generaluser.php) von S. Christian Collins
+  (Kopie mit Lizenz unter [Releases](https://github.com/hunther2k/vintamp-releases/releases/tag/assets-soundfont))

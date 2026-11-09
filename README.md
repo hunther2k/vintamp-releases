@@ -1,8 +1,8 @@
 # Vintamp
 
 **Der Player, wie er früher war – nur schöner.**
-Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Equalizer,
-Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
+Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Internetradio,
+Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 
 > Vintamp hieß bis Version 0.1.3 **Retroamp**. Installierte Versionen werden automatisch
 > umgestellt – Playlist und Einstellungen bleiben erhalten.
@@ -10,10 +10,14 @@ Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
-  <img src="docs/player.png" alt="Vintamp – Player mit Playlist" width="300">
+  <img src="docs/player.png" alt="Vintamp – Player mit Playlist" width="250">
   &nbsp;
-  <img src="docs/equalizer.png" alt="Vintamp – 10-Band-Equalizer" width="300">
+  <img src="docs/radio.png" alt="Vintamp – Internetradio" width="250">
+  &nbsp;
+  <img src="docs/equalizer.png" alt="Vintamp – 10-Band-Equalizer" width="250">
 </p>
+
+<p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
 
 ---
 
@@ -32,12 +36,21 @@ Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 - Zufallswiedergabe, Wiederholen (alle oder einen Titel)
 - Bleibt beim nächsten Start erhalten
 
+**Internetradio**
+- Über 50.000 Sender weltweit aus dem freien Verzeichnis radio-browser.info
+- Suche nach Name, Land und Genre – die beliebtesten Sender zuerst, mit Senderlogo
+- Favoriten mit einem Klick auf den Stern
+- Laufender Titel des Senders im Display, Weiter/Zurück wechselt den Sender
+- Vintamp merkt sich den letzten Sender – Play beim nächsten Start spielt ihn weiter
+
 **Klang**
 - 10-Band-Equalizer mit Vorverstärker – Änderungen wirken sofort, ohne Knacken
 - 12 Voreinstellungen (Rock, Pop, Jazz, Klassik, Bass-Boost, Stimme, Kopfhörer …)
 
 **Bedienung**
 - Spektrum-Visualizer mit drei Darstellungen
+- Maximiert oder im Vollbild (F11) zweispaltig: Player und großer Visualizer links,
+  Playlist mit Spalten (Titel, Interpret, Album, Typ, Länge) bzw. Senderliste rechts
 - Mini-Modus als schmale Leiste und „Immer im Vordergrund“
 - Medientasten der Tastatur und klassische Tastenkürzel (Z X C V B)
 
@@ -51,14 +64,13 @@ Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 
 | | Funktion | Darum geht's |
 |---|---|---|
-| 1 | **Internetradio** | Über 50.000 Sender weltweit, Suche nach Name, Land und Genre, Favoriten, laufender Titel im Display |
-| 2 | **Radio-Aufnahme** | Sendungen mitschneiden – automatisch in einzelne Titel aufgeteilt und mit Interpret und Titel versehen |
-| 3 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
-| 4 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 5 | **Videoplayer im Fenster** | Videos direkt in Vintamp, mit Untertiteln, Vollbild und Wiedergabegeschwindigkeit |
-| 6 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
-| 7 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
-| 8 | **Linux & macOS** | Vintamp auf allen drei Systemen |
+| 1 | **Radio-Aufnahme** | Sendungen mitschneiden – automatisch in einzelne Titel aufgeteilt und mit Interpret und Titel versehen |
+| 2 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
+| 3 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
+| 4 | **Videoplayer im Fenster** | Videos direkt in Vintamp, mit Untertiteln, Vollbild und Wiedergabegeschwindigkeit |
+| 5 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
+| 6 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
+| 7 | **Linux & macOS** | Vintamp auf allen drei Systemen |
 
 ## Ideen für später
 

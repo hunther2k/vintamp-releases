@@ -19,7 +19,7 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
 
-**Videos direkt im Fenster** – mit eigener Bedienleiste, Doppelklick schaltet auf Vollbild:
+**Videos direkt im Fenster** – mit eigener Bedienleiste, Untertiteln, Tonspur-Wahl und Geschwindigkeit; Doppelklick schaltet auf Vollbild:
 
 <p><img src="docs/video.png" alt="Vintamp – Video im Vintamp-Fenster" width="790"><br>
 <sub>Im Bild: „Big Buck Bunny“ © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub></p>
@@ -43,6 +43,9 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
 - Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – mit
   eigener Bedienleiste; Klick ins Bild pausiert, Doppelklick oder F schaltet auf Vollbild, Esc zurück
+- Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende
+  Dateien neben dem Video findet Vintamp selbst; Tonspur bzw. Sprache wählen; Geschwindigkeit 0,5× bis 2×
+  ohne Mickymaus-Stimme
 - Display mit Leuchtziffern: Spielzeit (Klick wechselt zwischen verstrichen und verbleibend),
   Lauftext mit Interpret und Titel, Bitrate, Abtastrate und Kanäle
 
@@ -107,10 +110,9 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 | 1 | **Radio-Aufnahme** | Sendungen mitschneiden – automatisch in einzelne Titel aufgeteilt und mit Interpret und Titel versehen |
 | 2 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
 | 3 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 4 | **Video-Extras** | Untertitel ein- und ausblenden, Tonspur wählen, Wiedergabegeschwindigkeit |
-| 5 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
-| 6 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
-| 7 | **Linux & macOS** | Vintamp auf allen drei Systemen |
+| 4 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
+| 5 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
+| 6 | **Linux & macOS** | Vintamp auf allen drei Systemen |
 
 ## Ideen für später
 

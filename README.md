@@ -1,20 +1,34 @@
 # Vintamp
 
 **Der Player, wie er früher war – nur schöner.**
-Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Internetradio,
-Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
+Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Internetradio
+(über 50.000 Sender), MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizern und Mini-Modus –
+im modernen dunklen Design.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
   <img src="docs/player.png" alt="Vintamp – Player mit Playlist" width="250">
   &nbsp;
-  <img src="docs/radio.png" alt="Vintamp – Internetradio" width="250">
+  <img src="docs/radio.png" alt="Vintamp – Internetradio mit „Jetzt läuft“" width="250">
   &nbsp;
   <img src="docs/equalizer.png" alt="Vintamp – 10-Band-Equalizer" width="250">
 </p>
 
+**Maximiert oder im Vollbild** – Player und großer Visualizer links, Senderliste mehrspaltig rechts:
+
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
+
+**MIDI mit Spur-Ansicht** – jede Spur mit Instrument und Noten, einzeln stumm oder solo:
+
+<p><img src="docs/midi.png" alt="Vintamp – MIDI-Datei mit Spur-Ansicht (Piano-Roll)" width="790"></p>
+
+**16 Visualizer in 4 Farbschemata** – ein Klick schaltet weiter, **Rechtsklick** öffnet die Auswahl:
+
+<p>
+  <img src="docs/menu.png" alt="Vintamp – Rechtsklick-Menü des Visualizers" width="420">
+</p>
+<p><img src="docs/visualizer.png" alt="Vintamp – alle 16 Visualizer-Darstellungen" width="790"></p>
 
 ---
 
@@ -53,9 +67,15 @@ Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 - 10-Band-Equalizer mit Vorverstärker – Änderungen wirken sofort, ohne Knacken
 - 12 Voreinstellungen (Rock, Pop, Jazz, Klassik, Bass-Boost, Stimme, Kopfhörer …)
 
+**Visualizer**
+- 16 Darstellungen: Balken, Spiegel, LED-Segmente, Feine Linien, Von der Mitte, Kurve, Fläche,
+  Berge, Kreis-Spektrum, Pulsring, Sonnenstrahlen, Feuer, Wasserfall, VU-Meter, Funken, Sternenflug
+- 4 Farbschemata: Orange/Pink, Cyan-LCD, Hi-Fi Grün/Gelb/Rot, Regenbogen
+- Klick auf den Visualizer schaltet zur nächsten Darstellung, **Rechtsklick** öffnet das Auswahlmenü
+  mit allen Darstellungen und Farben
+- Display und großer Visualizer merken sich ihre Darstellung getrennt
+
 **Bedienung**
-- Visualizer mit 16 Darstellungen – Balken, LED-Segmente, Kreis-Spektrum, Feuer, Wasserfall,
-  VU-Meter, Sternenflug und mehr – in 4 Farbschemata (Rechtsklick öffnet die Auswahl)
 - Maximiert oder im Vollbild (F11) zweispaltig: Player und großer Visualizer links,
   Playlist mit Spalten (Titel, Interpret, Album, Typ, Länge) bzw. Senderliste rechts
 - Auf breiten Bildschirmen stehen Playlist und Sender mehrspaltig nebeneinander –

@@ -51,6 +51,8 @@ Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 - Spektrum-Visualizer mit drei Darstellungen
 - Maximiert oder im Vollbild (F11) zweispaltig: Player und großer Visualizer links,
   Playlist mit Spalten (Titel, Interpret, Album, Typ, Länge) bzw. Senderliste rechts
+- Auf breiten Bildschirmen stehen Playlist und Sender mehrspaltig nebeneinander –
+  automatisch nach Fensterbreite oder fest 1–6 Spalten
 - Mini-Modus als schmale Leiste und „Immer im Vordergrund“
 - Medientasten der Tastatur und klassische Tastenkürzel (Z X C V B)
 

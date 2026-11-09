@@ -28,6 +28,8 @@ Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 
 **Playlist**
 - Dateien oder ganze Ordner einfach ins Fenster ziehen
+- Doppelklick auf eine Musikdatei im Explorer spielt sie im laufenden Vintamp – kein zweites Fenster
+- Beim Titelwechsel rückt der aktuelle Titel in die Mitte – man sieht, was als Nächstes kommt
 - Titel, Interpret und Länge werden aus den Tags gelesen
 - Suche, Mehrfachauswahl, Reihenfolge per Maus ändern
 - Zufallswiedergabe, Wiederholen (alle oder einen Titel)
@@ -36,8 +38,9 @@ Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 **Internetradio**
 - Über 50.000 Sender weltweit aus dem freien Verzeichnis radio-browser.info
 - Suche nach Name, Land und Genre – die beliebtesten Sender zuerst, mit Senderlogo
-- Favoriten mit einem Klick auf den Stern
-- Laufender Titel des Senders im Display, Weiter/Zurück wechselt den Sender
+- Favoriten mit einem Klick auf den Stern, Verlauf der zuletzt gehörten Sender
+- Der laufende Sender steht fest über der Liste, sein aktueller Titel auch im Display
+- Weiter/Zurück wechselt den Sender
 - Vintamp merkt sich den letzten Sender – Play beim nächsten Start spielt ihn weiter
 
 **Klang**
@@ -45,7 +48,8 @@ Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 - 12 Voreinstellungen (Rock, Pop, Jazz, Klassik, Bass-Boost, Stimme, Kopfhörer …)
 
 **Bedienung**
-- Spektrum-Visualizer mit drei Darstellungen
+- Visualizer mit 16 Darstellungen – Balken, LED-Segmente, Kreis-Spektrum, Feuer, Wasserfall,
+  VU-Meter, Sternenflug und mehr – in 4 Farbschemata (Rechtsklick öffnet die Auswahl)
 - Maximiert oder im Vollbild (F11) zweispaltig: Player und großer Visualizer links,
   Playlist mit Spalten (Titel, Interpret, Album, Typ, Länge) bzw. Senderliste rechts
 - Auf breiten Bildschirmen stehen Playlist und Sender mehrspaltig nebeneinander –

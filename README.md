@@ -4,9 +4,6 @@
 Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Internetradio,
 Equalizer, Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 
-> Vintamp hieß bis Version 0.1.3 **Retroamp**. Installierte Versionen werden automatisch
-> umgestellt – Playlist und Einstellungen bleiben erhalten.
-
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>

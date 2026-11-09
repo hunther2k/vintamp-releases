@@ -1,20 +1,23 @@
-# Retroamp
+# Vintamp
 
-**Der Musikplayer, wie er früher war – nur schöner.**
-Klein, schnell, startet sofort und spielt so gut wie alles: mit Equalizer,
+**Der Player, wie er früher war – nur schöner.**
+Klein, schnell, startet sofort und spielt so gut wie alles, Musik wie Video: mit Equalizer,
 Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 
-**[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/retroamp-releases/releases/latest)**
+> Vintamp hieß bis Version 0.1.3 **Retroamp**. Installierte Versionen werden automatisch
+> umgestellt – Playlist und Einstellungen bleiben erhalten.
+
+**[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
-  <img src="docs/player.png" alt="Retroamp – Player mit Playlist" width="300">
+  <img src="docs/player.png" alt="Vintamp – Player mit Playlist" width="300">
   &nbsp;
-  <img src="docs/equalizer.png" alt="Retroamp – 10-Band-Equalizer" width="300">
+  <img src="docs/equalizer.png" alt="Vintamp – 10-Band-Equalizer" width="300">
 </p>
 
 ---
 
-## Was Retroamp heute kann
+## Was Vintamp heute kann
 
 **Abspielen**
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
@@ -39,7 +42,7 @@ Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 - Medientasten der Tastatur und klassische Tastenkürzel (Z X C V B)
 
 **Updates**
-- Retroamp sucht selbst nach neuen Versionen und installiert sie auf Knopfdruck
+- Vintamp sucht selbst nach neuen Versionen und installiert sie auf Knopfdruck
 - Jedes Update ist kryptografisch signiert – installiert wird nur, was wirklich von Hunther2K stammt
 
 ---
@@ -52,10 +55,10 @@ Spektrum-Visualizer und Mini-Modus, im modernen dunklen Design.
 | 2 | **Radio-Aufnahme** | Sendungen mitschneiden – automatisch in einzelne Titel aufgeteilt und mit Interpret und Titel versehen |
 | 3 | **Schnell-Schnitt** | Wellenform-Ansicht: Anfang oder Ende abschneiden, einen Teil in der Mitte entfernen, ein- und ausblenden – MP3s ohne Qualitätsverlust |
 | 4 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 5 | **Videoplayer im Fenster** | Videos direkt in Retroamp, mit Untertiteln, Vollbild und Wiedergabegeschwindigkeit |
-| 6 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Retroamp nutzen |
-| 7 | **Spotify** | Spotify aus Retroamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
-| 8 | **Linux & macOS** | Retroamp auf allen drei Systemen |
+| 5 | **Videoplayer im Fenster** | Videos direkt in Vintamp, mit Untertiteln, Vollbild und Wiedergabegeschwindigkeit |
+| 6 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
+| 7 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
+| 8 | **Linux & macOS** | Vintamp auf allen drei Systemen |
 
 ## Ideen für später
 
@@ -78,18 +81,18 @@ Was noch denkbar ist – ohne feste Reihenfolge:
 
 ## Installieren
 
-1. [Neueste Version herunterladen](https://github.com/hunther2k/retroamp-releases/releases/latest)
-   (`Retroamp_x.y.z_x64-setup.exe`)
-2. Installer starten – fertig. Retroamp landet im Startmenü.
+1. [Neueste Version herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)
+   (`Vintamp_x.y.z_x64-setup.exe`)
+2. Installer starten – fertig. Vintamp landet im Startmenü.
 
 **Voraussetzung:** Windows 10 oder 11, 64 Bit. Linux und macOS folgen.
 
 ## Updates
 
-Retroamp prüft beim Start, ob es eine neue Version gibt, und zeigt dann oben einen Hinweis.
+Vintamp prüft beim Start, ob es eine neue Version gibt, und zeigt dann oben einen Hinweis.
 Von Hand: Klick auf die Versionsnummer oben links → **Nach Updates suchen**.
 
 ## Wünsche und Fehler
 
 Etwas funktioniert nicht oder du hast eine Idee?
-Schreib es gern als [Issue](https://github.com/hunther2k/retroamp-releases/issues).
+Schreib es gern als [Issue](https://github.com/hunther2k/vintamp-releases/issues).

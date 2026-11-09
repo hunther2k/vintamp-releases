@@ -76,6 +76,10 @@ Was noch denkbar ist – ohne feste Reihenfolge:
   Windows-Medienfenster mit Cover, Last.fm-Scrobbling
 - **Weitergeben:** Musik an Chromecast- oder DLNA-Geräte im Heimnetz schicken
 - **Portable Version:** ohne Installation, z. B. vom USB-Stick
+- **Auto-DJ:** Playlist vorbereiten – Vintamp übernimmt die Übergänge wie ein DJ: Tempo angleichen,
+  im Takt überblenden, Bässe sauber tauschen, verschiedene Übergangsstile
+- **DJ-Modus:** selbst auflegen mit zwei Decks, Mischpult mit Crossfader, Sync, Pitch, EQ und Filter
+  je Deck, Effekte, Sample-Pads zum Drauflegen und Wellenform-Anzeige
 
 ---
 

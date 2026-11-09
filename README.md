@@ -74,7 +74,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **MIDI**
 - MIDI-Dateien (.mid, .midi, .kar) abspielen – mit Equalizer, Spulen und Visualizer wie jede andere Datei
-- Spur-Ansicht: jede Spur mit Instrument und ihren Noten, Klick springt an die Stelle
+- Spur-Ansicht öffnet sich beim Start einer MIDI direkt: jede Spur mit Instrument und ihren Noten,
+  Klick springt an die Stelle
 - Einzelne Spuren stumm oder solo schalten – Vintamp mischt neu und spielt nahtlos weiter
 - Die Klangbibliothek wird beim ersten MIDI einmalig geladen (31 MB) – oder eigene SoundFont wählen
 

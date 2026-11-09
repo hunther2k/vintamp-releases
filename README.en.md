@@ -76,7 +76,8 @@ and a mini mode – in a modern dark design. In English and German.
 
 **MIDI**
 - Play MIDI files (.mid, .midi, .kar) – with equalizer, seeking and visualizer like any other file
-- Track view: every track with its instrument and notes, click to jump to that position
+- The track view opens right away when a MIDI file starts: every track with its instrument and
+  notes, click to jump to that position
 - Mute or solo single tracks – Vintamp remixes and keeps playing seamlessly
 - The sound library is downloaded once with the first MIDI file (31 MB) – or choose your own SoundFont
 

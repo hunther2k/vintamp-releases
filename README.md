@@ -145,6 +145,18 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   - Stimmung **Sanft / Club / Party** bestimmt, welche Stile vorkommen; Tempo, Tonart und Aufbau entscheiden mit,
     nie zweimal derselbe Stil hintereinander. Ausstieg bevorzugt am Beginn des Outros
   - Übergangslänge 4, 8 oder 16 Takte; nächster Titel der Reihe nach oder **„Passend“** (Tempo, Tonart)
+- **Song-Verständnis:** Vintamp analysiert jeden Titel einmal – Takt-Anfang, Phrasen, Aufbau, Kick und Groove,
+  Energie – und ordnet ihn einer Stilgruppe zu (Club, Pop, Ruhig). Auf Techno folgt so keine Ballade:
+  Unpassendes (Stil, Tempo, Energiesprung) wird übersprungen; erst wenn nichts mehr passt, wechselt die Automatik
+  bewusst den Stil – oder läuft aus, wenn du das so einstellst
+- **Übergänge wie geplant:** Ein- und Ausstieg auf Phrasen, kein Drop wird abgewürgt; jede Variante wird bewertet
+  (Takt, Harmonie, Energie, Gesang, Bass, Aufbau) und als **Probe-Mischung** im Hintergrund durchgerechnet –
+  Pegelsprünge, Übersteuerung und auseinanderlaufende Beats fallen so vorher auf
+- **Tempo gleitet:** Passt das Tempo nicht genau (z. B. 154 → 164 BPM), wird der laufende Titel vorher langsam
+  angeglichen – kaum hörbar, Tonhöhe bleibt; der neue läuft im Original-Tempo weiter
+- **Einstellungen und Protokoll:** Stil halten, Set-Verlauf (aufbauen, halten, ausklingen), Tempo-Grenze und
+  Gewichtung der Auswahl; jeder Übergang steht nummeriert im Protokoll – mit Bewertung, Warnungen, Begründung
+  und abgelehnten Titeln
 - Läuft das Pult, pausiert der normale Player – und umgekehrt
 - Vorerst für lokale Audiodateien (MP3, FLAC, WAV, OGG, M4A …)
 
@@ -254,7 +266,7 @@ Was noch denkbar ist – ohne feste Reihenfolge:
   Windows-Medienfenster mit Cover, Last.fm-Scrobbling
 - **Weitergeben:** Musik an Chromecast- oder DLNA-Geräte im Heimnetz schicken
 - **Portable Version:** ohne Installation, z. B. vom USB-Stick
-- **DJ-Pult ausbauen:** Sample-Pads zum Drauflegen (auch eigene Sounds), Vorhören über Kopfhörer auf einem
+- **DJ-Pult ausbauen:** Analyse-Modelle für noch genauere Takt- und Gesangserkennung, Sample-Pads zum Drauflegen (auch eigene Sounds), Vorhören über Kopfhörer auf einem
   zweiten Ausgang, DJ-Controller per MIDI, Mix aufnehmen
 - **Mehrspur im Cutter:** mehrere Dateien markieren → jede wird eine eigene Spur, verschieben,
   übereinanderlegen und zu einer Datei zusammenmischen

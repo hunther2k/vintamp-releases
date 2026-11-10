@@ -147,6 +147,17 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   - The mood **Smooth / Club / Party** decides which styles appear; tempo, key and structure have a say too,
     never the same style twice in a row. It prefers to leave at the start of the outro
   - Transition length 4, 8 or 16 bars; next track in list order or **“best fit”** (tempo, key)
+- **Track understanding:** Vintamp analyses each track once – downbeat, phrases, structure, kick and groove,
+  energy – and puts it into a style group (club, pop, calm). So techno is never followed by a ballad:
+  anything unsuitable (style, tempo, energy jump) is skipped; only when nothing fits any more does the auto mix
+  change style on purpose – or wind down, if you set it that way
+- **Planned transitions:** in and out on phrases, no drop cut off; every option is rated (bars, harmony, energy,
+  vocals, bass, structure) and run through a **test mix** in the background – level jumps, clipping and beats
+  drifting apart show up beforehand
+- **Tempo glides:** if the tempos don't quite match (e.g. 154 → 164 BPM), the playing track is slowly brought
+  up to speed first – barely audible, pitch stays; the new one keeps its original tempo
+- **Settings and log:** keep style, set flow (build up, hold, wind down), tempo limit and selection weighting;
+  every transition is numbered in the log – with rating, warnings, reasons and rejected tracks
 - While the deck plays, the normal player pauses – and vice versa
 - For local audio files for now (MP3, FLAC, WAV, OGG, M4A …)
 
@@ -256,7 +267,7 @@ What else is possible – in no particular order:
   with cover, Last.fm scrobbling
 - **Casting:** send music to Chromecast or DLNA devices on your home network
 - **Portable version:** without installation, e.g. from a USB stick
-- **More for the DJ deck:** sample pads to play on top (your own sounds too), headphone cueing on a
+- **More for the DJ deck:** analysis models for even more precise downbeat and vocal detection, sample pads to play on top (your own sounds too), headphone cueing on a
   second output, DJ controllers via MIDI, record your mix
 - **Multitrack in the cutter:** select several files → each becomes its own track, move them,
   layer them and mix them down into one file

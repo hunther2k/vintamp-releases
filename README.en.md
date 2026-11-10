@@ -31,9 +31,9 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 
 <p><img src="docs/tags.png" alt="Vintamp – tag editor" width="790"></p>
 
-**YouTube Music** – search, play, add to the music list:
+**YouTube Music** – “For you” suggestions, search, your own playlists and history:
 
-<p><img src="docs/youtube.png" alt="Vintamp – YouTube Music search" width="790"></p>
+<p><img src="docs/youtube.png" alt="Vintamp – YouTube Music, suggestions for you" width="790"></p>
 
 **Radio recording** – one click on ●, the broadcast is saved losslessly in one file; all recordings in their own section:
 
@@ -105,8 +105,18 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - Kept for the next start
 
 **YouTube Music**
-- Its own “YouTube” section: search songs or videos, with thumbnail, artist, album and length
-- Double-click plays, “+” appends the song to the music list (also all results at once)
+- Its own “YouTube” section with four views: **For you**, **Search**, **Playlists**, **History** – separate
+  from the music list
+- Search shows songs (album versions) and videos (live, remixes, covers …) together, with thumbnail, artist,
+  album and length
+- Click the picture or title to play; it then moves on to the next result automatically
+- Your own playlists as folders (“Rock”, “Trance”, “Pop” …): sort songs in with “+”, reorder by dragging, play or
+  shuffle, rename, delete
+- **For you:** based on the songs you play and your playlists, Vintamp suggests similar music
+  (“Because you played …”), “Shuffle” fetches new suggestions
+- When a list ends, playback continues with similar songs, like on YouTube
+- History of played songs; “Show similar songs” and “Copy link” in the right-click menu; songs can still be
+  added to the music list too
 - Nothing to set up: just search and play. The free helper yt-dlp, which translates YouTube addresses into a
   stream, is fetched by Vintamp itself with the first YouTube track (about 18 MB, once) and kept up to date
   in the background

@@ -29,9 +29,9 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 
 <p><img src="docs/tags.png" alt="Vintamp – Tag-Editor" width="790"></p>
 
-**YouTube Music** – suchen, abspielen, in die Musikliste übernehmen:
+**YouTube Music** – Vorschläge „Für dich“, Suche, eigene Playlisten und Verlauf:
 
-<p><img src="docs/youtube.png" alt="Vintamp – YouTube-Music-Suche" width="790"></p>
+<p><img src="docs/youtube.png" alt="Vintamp – YouTube Music, Vorschläge für dich" width="790"></p>
 
 **Radio-Aufnahme** – ein Klick auf ●, die Sendung landet verlustfrei in einer Datei; alle Aufnahmen im eigenen Bereich:
 
@@ -103,8 +103,18 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 - Bleibt beim nächsten Start erhalten
 
 **YouTube Music**
-- Eigener Bereich „YouTube“: Titel oder Videos suchen, mit Vorschaubild, Interpret, Album und Länge
-- Doppelklick spielt ab, „+“ hängt den Titel an die Musikliste (auch alle Treffer auf einmal)
+- Eigener Bereich „YouTube“ mit vier Ansichten: **Für dich**, **Suche**, **Playlisten**, **Verlauf** – unabhängig
+  von der Musikliste
+- Suche zeigt Titel (Albumfassungen) und Videos (Live, Remixe, Cover …) gemeinsam, mit Vorschaubild, Interpret,
+  Album und Länge
+- Klick auf Vorschaubild oder Titel spielt ab; danach geht es automatisch mit dem nächsten Treffer weiter
+- Eigene Playlisten als Ordner („Rock“, „Trance“, „Pop“ …): mit „+“ bei jedem Titel einsortieren, Reihenfolge per
+  Ziehen ändern, abspielen oder zufällig abspielen, umbenennen, löschen
+- **Für dich:** passend zu gehörten Titeln und deinen Playlisten schlägt Vintamp ähnliche Musik vor
+  („Weil du … gehört hast“), „Neu mischen“ holt neue Vorschläge
+- Ist eine Liste zu Ende, läuft es wie bei YouTube mit ähnlichen Titeln weiter
+- Verlauf der gehörten Titel; „Ähnliche Titel zeigen“ und „Link kopieren“ im Rechtsklick-Menü; Titel lassen sich
+  weiterhin auch an die Musikliste hängen
 - Nichts einzurichten: einfach suchen und abspielen. Das freie Hilfsprogramm yt-dlp, das YouTube-Adressen in
   einen Stream übersetzt, holt sich Vintamp beim ersten YouTube-Titel selbst (ca. 18 MB, einmalig) und hält es
   im Hintergrund aktuell

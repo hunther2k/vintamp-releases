@@ -148,7 +148,8 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
     never the same style twice in a row. It prefers to leave at the start of the outro
   - Transition length 4, 8 or 16 bars; next track in list order or **“best fit”** (tempo, key)
 - **Track understanding:** Vintamp analyses each track once – downbeat, phrases, structure, kick and groove,
-  energy – and puts it into a style group (club, pop, calm). So techno is never followed by a ballad:
+  energy – and puts it into a style group (club, pop, calm). A neural network confirms the downbeat
+  (**Beat This!**, downloaded once on the first AUTO – 42 MB – then runs offline). So techno is never followed by a ballad:
   anything unsuitable (style, tempo, energy jump) is skipped; only when nothing fits any more does the auto mix
   change style on purpose – or wind down, if you set it that way
 - **Planned transitions:** in and out on phrases, no drop cut off; every option is rated (bars, harmony, energy,
@@ -267,7 +268,7 @@ What else is possible – in no particular order:
   with cover, Last.fm scrobbling
 - **Casting:** send music to Chromecast or DLNA devices on your home network
 - **Portable version:** without installation, e.g. from a USB stick
-- **More for the DJ deck:** analysis models for even more precise downbeat and vocal detection, sample pads to play on top (your own sounds too), headphone cueing on a
+- **More for the DJ deck:** vocal detection (no vocals on top of each other), sample pads to play on top (your own sounds too), headphone cueing on a
   second output, DJ controllers via MIDI, record your mix
 - **Multitrack in the cutter:** select several files → each becomes its own track, move them,
   layer them and mix them down into one file
@@ -298,3 +299,6 @@ Feel free to open an [issue](https://github.com/hunther2k/vintamp-releases/issue
 - Internet radio directory: [radio-browser.info](https://www.radio-browser.info)
 - MIDI sounds: [GeneralUser GS](https://schristiancollins.com/generaluser.php) by S. Christian Collins
   (copy with license under [Releases](https://github.com/hunther2k/vintamp-releases/releases/tag/assets-soundfont))
+- Beat detection in the DJ deck: [Beat This!](https://github.com/CPJKU/beat_this) by the Institute of Computational
+  Perception, JKU Linz – MIT license (converted copy under
+  [Releases](https://github.com/hunther2k/vintamp-releases/releases/tag/assets-beatthis))

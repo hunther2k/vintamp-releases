@@ -146,7 +146,8 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
     nie zweimal derselbe Stil hintereinander. Ausstieg bevorzugt am Beginn des Outros
   - Übergangslänge 4, 8 oder 16 Takte; nächster Titel der Reihe nach oder **„Passend“** (Tempo, Tonart)
 - **Song-Verständnis:** Vintamp analysiert jeden Titel einmal – Takt-Anfang, Phrasen, Aufbau, Kick und Groove,
-  Energie – und ordnet ihn einer Stilgruppe zu (Club, Pop, Ruhig). Auf Techno folgt so keine Ballade:
+  Energie – und ordnet ihn einer Stilgruppe zu (Club, Pop, Ruhig). Den Takt-Anfang bestätigt ein neuronales
+  Netz (**Beat This!**, lädt beim ersten AUTO einmalig 42 MB und läuft dann offline). Auf Techno folgt so keine Ballade:
   Unpassendes (Stil, Tempo, Energiesprung) wird übersprungen; erst wenn nichts mehr passt, wechselt die Automatik
   bewusst den Stil – oder läuft aus, wenn du das so einstellst
 - **Übergänge wie geplant:** Ein- und Ausstieg auf Phrasen, kein Drop wird abgewürgt; jede Variante wird bewertet
@@ -266,7 +267,7 @@ Was noch denkbar ist – ohne feste Reihenfolge:
   Windows-Medienfenster mit Cover, Last.fm-Scrobbling
 - **Weitergeben:** Musik an Chromecast- oder DLNA-Geräte im Heimnetz schicken
 - **Portable Version:** ohne Installation, z. B. vom USB-Stick
-- **DJ-Pult ausbauen:** Analyse-Modelle für noch genauere Takt- und Gesangserkennung, Sample-Pads zum Drauflegen (auch eigene Sounds), Vorhören über Kopfhörer auf einem
+- **DJ-Pult ausbauen:** Gesangserkennung (kein Gesang übereinander), Sample-Pads zum Drauflegen (auch eigene Sounds), Vorhören über Kopfhörer auf einem
   zweiten Ausgang, DJ-Controller per MIDI, Mix aufnehmen
 - **Mehrspur im Cutter:** mehrere Dateien markieren → jede wird eine eigene Spur, verschieben,
   übereinanderlegen und zu einer Datei zusammenmischen
@@ -297,3 +298,6 @@ Schreib es gern als [Issue](https://github.com/hunther2k/vintamp-releases/issues
 - Internetradio-Verzeichnis: [radio-browser.info](https://www.radio-browser.info)
 - MIDI-Klänge: [GeneralUser GS](https://schristiancollins.com/generaluser.php) von S. Christian Collins
   (Kopie mit Lizenz unter [Releases](https://github.com/hunther2k/vintamp-releases/releases/tag/assets-soundfont))
+- Takt-Erkennung im DJ-Pult: [Beat This!](https://github.com/CPJKU/beat_this) vom Institute of Computational
+  Perception, JKU Linz – MIT-Lizenz (umgewandelte Kopie unter
+  [Releases](https://github.com/hunther2k/vintamp-releases/releases/tag/assets-beatthis))

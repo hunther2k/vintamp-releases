@@ -149,6 +149,7 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Auf breiten Bildschirmen stehen Playlist und Sender mehrspaltig nebeneinander –
   automatisch nach Fensterbreite oder fest 1–6 Spalten
 - Mini-Modus als schmale Leiste und „Immer im Vordergrund“
+- Merkt sich Fenstergröße und -position (auch „maximiert“ und den Mini-Modus) für den nächsten Start
 - Medientasten der Tastatur und klassische Tastenkürzel (Z X C V B)
 - **Deutsch und Englisch:** Vintamp folgt der Windows-Sprache; umschaltbar im Über-Dialog
   (Klick auf die Versionsnummer) – sofort, ohne Neustart. Den Installer gibt es ebenfalls in beiden Sprachen

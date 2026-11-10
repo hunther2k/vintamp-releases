@@ -151,6 +151,7 @@ and a mini mode – in a modern dark design. In English and German.
 - On wide screens, playlist and stations are shown in several columns side by side –
   automatically by window width or fixed at 1–6 columns
 - Mini mode as a slim bar and “always on top”
+- Remembers the window size and position (also “maximized” and mini mode) for the next start
 - Keyboard media keys and classic shortcuts (Z X C V B)
 - **English and German:** Vintamp follows the Windows language; switch it in the About dialog
   (click the version number) – instantly, without restarting. The installer comes in both languages, too

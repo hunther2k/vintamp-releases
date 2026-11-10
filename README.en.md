@@ -23,6 +23,10 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 
 <p><img src="docs/breit.png" alt="Vintamp – wide view with sidebar, station list and player bar" width="790"></p>
 
+**DJ deck with auto mix** – two decks, mixer and crossfader; press **AUTO** and Vintamp mixes your music list by itself: beat-matched, with bass swap, the tempo glides back afterwards:
+
+<p><img src="docs/dj.png" alt="Vintamp – DJ deck with two decks, mixer and an auto-mix transition in progress" width="790"></p>
+
 **Tempo and key** – Vintamp detects the BPM and key (Camelot) of every track; tracks that fit the playing one harmonically light up:
 
 <p><img src="docs/musik.png" alt="Vintamp – music list with BPM and key columns" width="790"></p>
@@ -123,6 +127,21 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   in the background
 - Only the audio is played as a stream – no music is downloaded or saved. Equalizer and visualizer work as
   with any other source
+
+**DJ deck**
+- Own **DJ** tab styled like a two-deck controller: jog wheel (turn to nudge or scrub), CUE, play, SYNC,
+  KEY (keep the pitch), tempo fader ±8 % and 8 pads for **hot cues** and **loops** (½ to 32 beats)
+- Mixer with TRIM, 3-band EQ (HI/MID/LOW, fully left = off), filter (left low-pass, right high-pass),
+  channel faders with level meters, crossfader and master
+- Two scrolling colour waveforms (bass/mids/highs) with beat grid, bars and phrases, plus an overview of the
+  whole track per deck – click to jump there
+- Change the tempo without the Mickey Mouse effect (or like vinyl with KEY off); Vintamp detects tempo, beat
+  grid and key itself and evens out the loudness of the tracks
+- **AUTO:** mixes the tracks of the music list on its own – out at the end of a phrase, in on the first beat
+  of the next track, beat-matched with bass swap over 4, 8 or 16 bars; if the tempos are too far apart it
+  crossfades smoothly. In list order or **“best fit”** (similar tempo, harmonic key)
+- While the deck plays, the normal player pauses – and vice versa
+- For local audio files for now (MP3, FLAC, WAV, OGG, M4A …)
 
 **Internet radio**
 - More than 50,000 stations worldwide from the free radio-browser.info directory
@@ -230,10 +249,8 @@ What else is possible – in no particular order:
   with cover, Last.fm scrobbling
 - **Casting:** send music to Chromecast or DLNA devices on your home network
 - **Portable version:** without installation, e.g. from a USB stick
-- **Auto DJ:** prepare a playlist – Vintamp handles the transitions like a DJ: match tempo,
-  crossfade on the beat, swap the bass cleanly, different transition styles
-- **DJ mode:** mix yourself with two decks, a mixer with crossfader, sync, pitch, EQ and filter
-  per deck, effects, sample pads and waveform display
+- **More for the DJ deck:** effects (echo, reverb, flanger …), sample pads to play on top, headphone
+  cueing on a second output, more auto-mix transition styles, DJ controllers via MIDI
 - **Multitrack in the cutter:** select several files → each becomes its own track, move them,
   layer them and mix them down into one file
 

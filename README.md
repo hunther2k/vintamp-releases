@@ -21,6 +21,10 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Seitenleiste, Senderliste und Player-Leiste" width="790"></p>
 
+**DJ-Pult mit Automatik** – zwei Decks, Mixer und Crossfader; auf **AUTO** mischt Vintamp deine Musikliste selbst: im Takt, mit Bass-Tausch, das Tempo gleitet danach zurück:
+
+<p><img src="docs/dj.png" alt="Vintamp – DJ-Pult mit zwei Decks, Mixer und laufendem Übergang der Automatik" width="790"></p>
+
 **Tempo und Tonart** – Vintamp erkennt BPM und Tonart (Camelot) jedes Titels; Titel, die harmonisch zum laufenden passen, leuchten:
 
 <p><img src="docs/musik.png" alt="Vintamp – Musikliste mit BPM- und Tonart-Spalten" width="790"></p>
@@ -121,6 +125,21 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   im Hintergrund aktuell
 - Gespielt wird nur der Ton als Stream – keine Musik wird heruntergeladen oder gespeichert. Equalizer und
   Visualizer wirken wie bei jeder anderen Quelle
+
+**DJ-Pult**
+- Eigener Reiter **DJ** im Look eines 2-Deck-Controllers: Jog-Rad (drehen = schieben bzw. spulen), CUE, Play,
+  SYNC, KEY (Tonhöhe halten), Tempo-Fader ±8 % und 8 Pads für **Hot Cues** und **Loops** (½ bis 32 Schläge)
+- Mixer mit TRIM, 3-Band-EQ (HI/MID/LOW, ganz links = aus), Filter (links Tiefpass, rechts Hochpass),
+  Kanal-Fadern mit Pegelanzeige, Crossfader und Master
+- Zwei mitlaufende, farbige Wellenformen (Bass/Mitten/Höhen) mit Beat-Raster, Takten und Phrasen; dazu je Deck
+  eine Übersicht des ganzen Titels – Klick springt an die Stelle
+- Tempo ändern ohne Mickymaus-Effekt (oder wie Vinyl, wenn KEY aus ist); Tempo, Beat-Raster und Tonart erkennt
+  Vintamp selbst, die Lautstärke der Titel wird angeglichen
+- **AUTO:** mischt die Titel der Musikliste selbstständig – Ausstieg am Ende einer Phrase, Einstieg am ersten
+  Schlag des nächsten Titels, Schlag auf Schlag mit Bass-Tausch über 4, 8 oder 16 Takte; passen die Tempi nicht
+  zusammen, wird weich überblendet. Der Reihe nach oder **„Passend“** (ähnliches Tempo, harmonische Tonart)
+- Läuft das Pult, pausiert der normale Player – und umgekehrt
+- Vorerst für lokale Audiodateien (MP3, FLAC, WAV, OGG, M4A …)
 
 **Internetradio**
 - Über 50.000 Sender weltweit aus dem freien Verzeichnis radio-browser.info
@@ -228,10 +247,8 @@ Was noch denkbar ist – ohne feste Reihenfolge:
   Windows-Medienfenster mit Cover, Last.fm-Scrobbling
 - **Weitergeben:** Musik an Chromecast- oder DLNA-Geräte im Heimnetz schicken
 - **Portable Version:** ohne Installation, z. B. vom USB-Stick
-- **Auto-DJ:** Playlist vorbereiten – Vintamp übernimmt die Übergänge wie ein DJ: Tempo angleichen,
-  im Takt überblenden, Bässe sauber tauschen, verschiedene Übergangsstile
-- **DJ-Modus:** selbst auflegen mit zwei Decks, Mischpult mit Crossfader, Sync, Pitch, EQ und Filter
-  je Deck, Effekte, Sample-Pads zum Drauflegen und Wellenform-Anzeige
+- **DJ-Pult ausbauen:** Effekte (Echo, Hall, Flanger …), Sample-Pads zum Drauflegen, Vorhören über Kopfhörer
+  auf einem zweiten Ausgang, weitere Übergangsstile der Automatik, DJ-Controller per MIDI
 - **Mehrspur im Cutter:** mehrere Dateien markieren → jede wird eine eigene Spur, verschieben,
   übereinanderlegen und zu einer Datei zusammenmischen
 

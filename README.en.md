@@ -23,7 +23,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 
 <p><img src="docs/breit.png" alt="Vintamp – wide view with sidebar, station list and player bar" width="790"></p>
 
-**DJ deck with auto mix** – two decks, mixer and crossfader; press **AUTO** and Vintamp mixes your music list by itself: beat-matched, with bass swap, the tempo glides back afterwards:
+**DJ deck with auto mix** – two decks, mixer, effects and crossfader; press **AUTO** and Vintamp mixes your music list like a DJ: EQ and filter mixes, drop swap, echo out, loop roll, brake … to suit the mood, tempo, key and structure of the tracks:
 
 <p><img src="docs/dj.png" alt="Vintamp – DJ deck with two decks, mixer and an auto-mix transition in progress" width="790"></p>
 
@@ -135,11 +135,18 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   channel faders with level meters, crossfader and master
 - Two scrolling colour waveforms (bass/mids/highs) with beat grid, bars and phrases, plus an overview of the
   whole track per deck – click to jump there
+- **Track structure:** Vintamp detects intro, build-up, drop, break and outro and colours them in the waveforms
+- **PAD FX:** echo (½ or ¾ beat), reverb, flanger, gate, loop roll, brake and spinback – all on the beat; echo and
+  reverb trail off, the loop roll jumps to where the track would have been without it
 - Change the tempo without the Mickey Mouse effect (or like vinyl with KEY off); Vintamp detects tempo, beat
   grid and key itself and evens out the loudness of the tracks
-- **AUTO:** mixes the tracks of the music list on its own – out at the end of a phrase, in on the first beat
-  of the next track, beat-matched with bass swap over 4, 8 or 16 bars; if the tempos are too far apart it
-  crossfades smoothly. In list order or **“best fit”** (similar tempo, harmonic key)
+- **AUTO:** mixes the tracks of the music list on its own like a DJ, picking a style for each transition:
+  - **EQ mix** (highs, bass and mids swapped in stages) and **filter mix** – long and beat-matched
+  - **Drop swap:** the new track runs its build-up under the old one and the cut lands right on its drop
+  - **Echo out, loop roll** (1 → ½ → ¼ → ⅛ beat), **brake, spinback, reverb wash** – cut on the phrase
+  - The mood **Smooth / Club / Party** decides which styles appear; tempo, key and structure have a say too,
+    never the same style twice in a row. It prefers to leave at the start of the outro
+  - Transition length 4, 8 or 16 bars; next track in list order or **“best fit”** (tempo, key)
 - While the deck plays, the normal player pauses – and vice versa
 - For local audio files for now (MP3, FLAC, WAV, OGG, M4A …)
 
@@ -249,8 +256,8 @@ What else is possible – in no particular order:
   with cover, Last.fm scrobbling
 - **Casting:** send music to Chromecast or DLNA devices on your home network
 - **Portable version:** without installation, e.g. from a USB stick
-- **More for the DJ deck:** effects (echo, reverb, flanger …), sample pads to play on top, headphone
-  cueing on a second output, more auto-mix transition styles, DJ controllers via MIDI
+- **More for the DJ deck:** sample pads to play on top (your own sounds too), headphone cueing on a
+  second output, DJ controllers via MIDI, record your mix
 - **Multitrack in the cutter:** select several files → each becomes its own track, move them,
   layer them and mix them down into one file
 

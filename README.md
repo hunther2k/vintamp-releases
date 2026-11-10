@@ -21,7 +21,7 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 
 <p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Seitenleiste, Senderliste und Player-Leiste" width="790"></p>
 
-**DJ-Pult mit Automatik** – zwei Decks, Mixer und Crossfader; auf **AUTO** mischt Vintamp deine Musikliste selbst: im Takt, mit Bass-Tausch, das Tempo gleitet danach zurück:
+**DJ-Pult mit Automatik** – zwei Decks, Mixer, Effekte und Crossfader; auf **AUTO** mischt Vintamp deine Musikliste selbst wie ein DJ: EQ- und Filter-Mix, Drop-Swap, Echo-Out, Loop-Roll, Brake … passend zu Stimmung, Tempo, Tonart und Aufbau der Titel:
 
 <p><img src="docs/dj.png" alt="Vintamp – DJ-Pult mit zwei Decks, Mixer und laufendem Übergang der Automatik" width="790"></p>
 
@@ -133,11 +133,18 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   Kanal-Fadern mit Pegelanzeige, Crossfader und Master
 - Zwei mitlaufende, farbige Wellenformen (Bass/Mitten/Höhen) mit Beat-Raster, Takten und Phrasen; dazu je Deck
   eine Übersicht des ganzen Titels – Klick springt an die Stelle
+- **Song-Aufbau:** Vintamp erkennt Intro, Build-up, Drop, Break und Outro und zeigt sie farbig in den Wellenformen
+- **PAD FX:** Echo (½ oder ¾ Schlag), Hall, Flanger, Gate, Loop-Roll, Brake und Spinback – alles im Takt; Echo und
+  Hall klingen nach, der Loop-Roll springt danach dorthin, wo der Titel ohne ihn wäre
 - Tempo ändern ohne Mickymaus-Effekt (oder wie Vinyl, wenn KEY aus ist); Tempo, Beat-Raster und Tonart erkennt
   Vintamp selbst, die Lautstärke der Titel wird angeglichen
-- **AUTO:** mischt die Titel der Musikliste selbstständig – Ausstieg am Ende einer Phrase, Einstieg am ersten
-  Schlag des nächsten Titels, Schlag auf Schlag mit Bass-Tausch über 4, 8 oder 16 Takte; passen die Tempi nicht
-  zusammen, wird weich überblendet. Der Reihe nach oder **„Passend“** (ähnliches Tempo, harmonische Tonart)
+- **AUTO:** mischt die Titel der Musikliste selbstständig wie ein DJ und wählt je Übergang einen Stil:
+  - **EQ-Mix** (Höhen, Bässe und Mitten gestaffelt getauscht) und **Filter-Mix** – lang und Schlag auf Schlag
+  - **Drop-Swap:** der neue Titel läuft mit seinem Build-up unter dem alten, der Schnitt kommt genau auf seinen Drop
+  - **Echo-Out, Loop-Roll** (1 → ½ → ¼ → ⅛ Schlag), **Brake, Spinback, Hall-Fahne** – Schnitt auf die Phrase
+  - Stimmung **Sanft / Club / Party** bestimmt, welche Stile vorkommen; Tempo, Tonart und Aufbau entscheiden mit,
+    nie zweimal derselbe Stil hintereinander. Ausstieg bevorzugt am Beginn des Outros
+  - Übergangslänge 4, 8 oder 16 Takte; nächster Titel der Reihe nach oder **„Passend“** (Tempo, Tonart)
 - Läuft das Pult, pausiert der normale Player – und umgekehrt
 - Vorerst für lokale Audiodateien (MP3, FLAC, WAV, OGG, M4A …)
 
@@ -247,8 +254,8 @@ Was noch denkbar ist – ohne feste Reihenfolge:
   Windows-Medienfenster mit Cover, Last.fm-Scrobbling
 - **Weitergeben:** Musik an Chromecast- oder DLNA-Geräte im Heimnetz schicken
 - **Portable Version:** ohne Installation, z. B. vom USB-Stick
-- **DJ-Pult ausbauen:** Effekte (Echo, Hall, Flanger …), Sample-Pads zum Drauflegen, Vorhören über Kopfhörer
-  auf einem zweiten Ausgang, weitere Übergangsstile der Automatik, DJ-Controller per MIDI
+- **DJ-Pult ausbauen:** Sample-Pads zum Drauflegen (auch eigene Sounds), Vorhören über Kopfhörer auf einem
+  zweiten Ausgang, DJ-Controller per MIDI, Mix aufnehmen
 - **Mehrspur im Cutter:** mehrere Dateien markieren → jede wird eine eigene Spur, verschieben,
   übereinanderlegen und zu einer Datei zusammenmischen
 

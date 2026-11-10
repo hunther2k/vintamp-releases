@@ -182,6 +182,8 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - Click the visualizer to switch to the next style, **right-click** opens the menu
   with all styles and colors
 - The display and the large visualizer remember their style separately
+- The large visualizer sits in a 16:9 box at the bottom of the sidebar – behind it the cover of the current
+  track: YouTube picture, station logo or the cover embedded in the file (set it to “Off” to see just the cover)
 - While a video plays, the visualizers step aside – the picture comes first
 
 **Usability**

@@ -180,6 +180,8 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 - Klick auf den Visualizer schaltet zur nächsten Darstellung, **Rechtsklick** öffnet das Auswahlmenü
   mit allen Darstellungen und Farben
 - Display und großer Visualizer merken sich ihre Darstellung getrennt
+- Der große Visualizer sitzt im 16:9-Feld unten in der Seitenleiste – dahinter das Cover des laufenden Titels:
+  YouTube-Bild, Senderlogo oder das in der Datei eingebettete Cover (mit „Aus“ nur das Cover)
 - Während ein Video läuft, treten die Visualizer zurück – das Bild hat Vorrang
 
 **Bedienung**

@@ -99,16 +99,19 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   key, comment and cover – also for many files at once; “From file name” takes “Artist - Title”, “Detect BPM &
   key” fills tempo and key from the audio. Writing is lossless: cue points, beat grids and other data of DJ
   software are kept
-
-**YouTube Music**
-- Its own “YouTube” section: search songs or videos, with thumbnail, artist, album and length
-- Double-click plays, “+” appends the song to the music list (also all results at once)
-- Only the audio is played as a stream – nothing is downloaded or saved. For this, Vintamp needs the free
-  program yt-dlp (about 18 MB) once; it sets it up and updates it itself at the push of a button
 - Search, multi-select (Ctrl/Shift), reorder with the mouse
 - Remove one or several tracks from the list – Del, right-click or trash can (without a selection it clears the list)
 - Shuffle, repeat (all or one track)
 - Kept for the next start
+
+**YouTube Music**
+- Its own “YouTube” section: search songs or videos, with thumbnail, artist, album and length
+- Double-click plays, “+” appends the song to the music list (also all results at once)
+- Nothing to set up: just search and play. The free helper yt-dlp, which translates YouTube addresses into a
+  stream, is fetched by Vintamp itself with the first YouTube track (about 18 MB, once) and kept up to date
+  in the background
+- Only the audio is played as a stream – no music is downloaded or saved. Equalizer and visualizer work as
+  with any other source
 
 **Internet radio**
 - More than 50,000 stations worldwide from the free radio-browser.info directory

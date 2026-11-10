@@ -97,16 +97,19 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   CD, BPM, Tonart, Kommentar und Cover – auch für viele Dateien auf einmal; „Aus Dateiname“ übernimmt
   „Interpret - Titel“, „BPM & Tonart erkennen“ füllt Tempo und Tonart aus dem Ton. Geschrieben wird verlustfrei:
   Cue-Punkte, Beatgrids und andere Daten von DJ-Programmen bleiben erhalten
-
-**YouTube Music**
-- Eigener Bereich „YouTube“: Titel oder Videos suchen, mit Vorschaubild, Interpret, Album und Länge
-- Doppelklick spielt ab, „+“ hängt den Titel an die Musikliste (auch alle Treffer auf einmal)
-- Gespielt wird nur der Ton als Stream – nichts wird heruntergeladen oder gespeichert. Dafür braucht Vintamp
-  einmalig das freie Programm yt-dlp (ca. 18 MB), das es auf Knopfdruck selbst einrichtet und aktualisiert
 - Suche, Mehrfachauswahl (Strg/Umschalt), Reihenfolge per Maus ändern
 - Titel einzeln oder mehrere aus der Liste entfernen – Entf, Rechtsklick oder Mülleimer (ohne Auswahl leert er die Liste)
 - Zufallswiedergabe, Wiederholen (alle oder einen Titel)
 - Bleibt beim nächsten Start erhalten
+
+**YouTube Music**
+- Eigener Bereich „YouTube“: Titel oder Videos suchen, mit Vorschaubild, Interpret, Album und Länge
+- Doppelklick spielt ab, „+“ hängt den Titel an die Musikliste (auch alle Treffer auf einmal)
+- Nichts einzurichten: einfach suchen und abspielen. Das freie Hilfsprogramm yt-dlp, das YouTube-Adressen in
+  einen Stream übersetzt, holt sich Vintamp beim ersten YouTube-Titel selbst (ca. 18 MB, einmalig) und hält es
+  im Hintergrund aktuell
+- Gespielt wird nur der Ton als Stream – keine Musik wird heruntergeladen oder gespeichert. Equalizer und
+  Visualizer wirken wie bei jeder anderen Quelle
 
 **Internetradio**
 - Über 50.000 Sender weltweit aus dem freien Verzeichnis radio-browser.info

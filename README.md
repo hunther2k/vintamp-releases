@@ -38,9 +38,9 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 <p><img src="docs/video-vollbild.png" alt="Vintamp – Video im Vollbild mit eingeblendeter Bedienleiste" width="790"></p>
 
-**Audio-Cutter** – Rechtsklick auf eine Audiodatei → „Schneiden …“: Wellenform, Titel aus Radio-Aufnahmen als Marken, verlustfrei speichern:
+**Audio-Cutter** – Rechtsklick auf eine Audiodatei → „Schneiden …“: bedient sich wie ein Audio-Editor, mit Mixer und grafischem EQ:
 
-<p><img src="docs/cutter.png" alt="Vintamp – Audio-Cutter mit Wellenform, Auswahl und Titelmarken" width="790"></p>
+<p><img src="docs/cutter.png" alt="Vintamp – Audio-Cutter mit Stereo-Wellenform, Fades, Mixer und grafischem EQ" width="790"></p>
 
 **MIDI mit Spur-Ansicht** – jede Spur mit Instrument und Noten, einzeln stumm oder solo:
 
@@ -103,12 +103,19 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **Audio-Cutter**
 - Rechtsklick auf eine Audiodatei (Musikliste oder Aufnahme) → „Schneiden …“ öffnet den Reiter „Schnitt“
-- Große Wellenform mit Zoom und Übersicht; Bereich mit der Maus markieren, Anfang und Ende auch auf die
-  Zehntelsekunde eintippen (oder I / O an der Abspielposition)
-- Auswahl behalten (trimmen) oder herausschneiden – beliebig oft, mit Rückgängig und Wiederholen
-- Ein- und Ausblenden, Tempo 0,5–2× ohne Mickymaus-Stimme, Tonhöhe ±12 Halbtöne ohne Tempoänderung,
-  10-Band-EQ mit Voreinstellungen, Lautstärke und „alles gleich laut“ (−14 LUFS)
-- Alles vorhören, die Auswahl auch in Schleife
+- Bedienung wie in einem Audio-Editor: Klick setzt die Position, Ziehen wählt aus, Doppelklick wählt den
+  Abschnitt, Klick ins Lineal spielt ab dort; Auswahl rastet an Marken und Schnittstellen ein (Magnet)
+- Ausschneiden, Kopieren, Einfügen, Löschen, Zuschneiden, Stille – mit Strg+X/C/V, Entf, Strg+T, Strg+L
+  oder per Rechtsklick; beliebig oft rückgängig
+- Stereo-Wellenform mit Zoom, Übersicht und Lineal; Anfang, Ende und Länge auf die Millisekunde eintippen
+- **Fades mit der Maus:** Griffe oben links und rechts ziehen, Kurvenform (linear, logarithmisch,
+  exponentiell, S-Kurve) per Rechtsklick
+- **Mixer:** Fader für Tempo, Tonhöhe und Lautstärke mit Pegelanzeige. „Key-Lock“ ändert Tempo und Tonhöhe
+  getrennt mit Rubber Band R3 (Studio-Algorithmus), „Vinyl“ koppelt beide wie ein Plattenspieler –
+  ganz ohne Artefakte. A/B-Taste zum Vergleich mit dem Original, Auto-Pegel (−14 LUFS)
+- **Grafischer EQ:** parametrisch mit Hoch- und Tiefpass, Kuhschwänzen und Glocken – Punkte ziehen,
+  Mausrad für die Güte; Voreinstellungen wie „Rumpeln weg“ oder „Stimme klarer“
+- Alles hört man sofort beim Vorhören, die Auswahl auch in Schleife
 - Speichern als neue Datei oder anstelle des Originals (das alte wandert in den Papierkorb) – MP3, FLAC, WAV, Ogg;
   Tags und Cover werden übernommen
 - **Verlustfrei:** Nur geschnittene MP3/AAC werden rahmengenau kopiert – keine Qualitätsverluste,

@@ -40,9 +40,9 @@ and a mini mode – in a modern dark design. In English and German.
 
 <p><img src="docs/video-vollbild.png" alt="Vintamp – video in full screen with the control bar shown" width="790"></p>
 
-**Audio cutter** – right-click an audio file → “Cut …”: waveform, tracks of radio recordings as markers, lossless saving:
+**Audio cutter** – right-click an audio file → “Cut …”: works like an audio editor, with a mixer and a graphic EQ:
 
-<p><img src="docs/cutter.png" alt="Vintamp – audio cutter with waveform, selection and track markers" width="790"></p>
+<p><img src="docs/cutter.png" alt="Vintamp – audio cutter with stereo waveform, fades, mixer and graphic EQ" width="790"></p>
 
 **MIDI with a track view** – every track with its instrument and notes, mute or solo each one:
 
@@ -105,12 +105,19 @@ and a mini mode – in a modern dark design. In English and German.
 
 **Audio cutter**
 - Right-click an audio file (music list or recording) → “Cut …” opens the “Cut” tab
-- Large waveform with zoom and overview; select a range with the mouse, or type start and end
-  to a tenth of a second (or I / O at the play position)
-- Keep the selection (trim) or cut it out – as often as you like, with undo and redo
-- Fade in and out, tempo 0.5–2× without chipmunk voices, pitch ±12 semitones without changing the tempo,
-  10-band EQ with presets, volume and “everything equally loud” (−14 LUFS)
-- Preview everything, loop the selection
+- Works like an audio editor: click sets the position, drag selects, double-click selects the section,
+  click the ruler to play from there; the selection snaps to markers and cuts
+- Cut, copy, paste, delete, trim, silence – with Ctrl+X/C/V, Del, Ctrl+T, Ctrl+L or by right-click;
+  unlimited undo
+- Stereo waveform with zoom, overview and ruler; type start, end and length to the millisecond
+- **Fades with the mouse:** drag the handles top left and right, pick the curve (linear, logarithmic,
+  exponential, S-curve) by right-click
+- **Mixer:** faders for tempo, pitch and volume with a level meter. “Key lock” changes tempo and pitch
+  separately with Rubber Band R3 (studio algorithm), “Vinyl” links both like a turntable – free of
+  any artifacts. A/B button to compare with the original, auto level (−14 LUFS)
+- **Graphic EQ:** parametric with high-pass and low-pass, shelves and bells – drag the points, mouse wheel
+  for Q; presets like “Remove rumble” or “Clearer voice”
+- You hear everything right away in the preview, the selection also in a loop
 - Save as a new file or in place of the original (the old one goes to the Recycle Bin) – MP3, FLAC, WAV, Ogg;
   tags and cover are kept
 - **Lossless:** MP3/AAC that are only cut get copied frame by frame – no quality loss,

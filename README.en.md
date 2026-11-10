@@ -75,7 +75,8 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - Plays practically every audio format: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE and more
 - Videos (MP4, MKV, WebM, AVI …) play right inside the Vintamp window in the “Video” tab – player
   on top, video list below; the control bar (seeking, previous/play/next, volume, time, subtitles,
-  audio track, speed, full screen) sits right below the picture; click the picture to pause, double-click or F
+  audio track, speed, full screen) sits right below the picture – the player bar at the bottom makes room;
+  click the picture to pause, double-click or F
   toggles full screen, Esc to go back – full screen shows just the picture: move the mouse and the
   control bar (seeking, time, next/previous, subtitles, volume) fades in over it and out again
 - Turn subtitles on and off or load a subtitle file (SRT, ASS, VTT …) – matching files next to the

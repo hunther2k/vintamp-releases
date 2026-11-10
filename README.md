@@ -73,7 +73,8 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
 - Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – oben der
   Player, darunter die Videoliste; die Bedienleiste (Spulen, Zurück/Play/Weiter, Lautstärke, Zeit,
-  Untertitel, Tonspur, Tempo, Vollbild) sitzt direkt unter dem Bild; Klick ins Bild pausiert, Doppelklick oder F
+  Untertitel, Tonspur, Tempo, Vollbild) sitzt direkt unter dem Bild – die Player-Leiste unten macht dann Platz;
+  Klick ins Bild pausiert, Doppelklick oder F
   schaltet Vollbild an und aus, Esc zurück – im Vollbild nur das Bild: bei Mausbewegung blendet die
   Bedienleiste (Spulen, Zeit, Weiter/Zurück, Untertitel, Lautstärke) weich darüber ein und wieder aus
 - Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende

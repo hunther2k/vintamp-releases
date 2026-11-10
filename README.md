@@ -110,8 +110,8 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   Album und Länge
 - Klick auf Vorschaubild oder Titel spielt ab; danach geht es automatisch mit dem nächsten Treffer weiter
 - **Lieblingstitel** sind immer da: ohne eigene Ordner landet ein Titel mit „+“ direkt dort
-- Eigene Playlisten als Ordner („Rock“, „Trance“, „Pop“ …): mit „+“ bei jedem Titel einsortieren, Reihenfolge per
-  Ziehen ändern, abspielen oder zufällig abspielen, umbenennen, löschen
+- Eigene Playlisten als Ordner („Rock“, „Trance“, „Pop“ …): mit „+“ bei jedem Titel einsortieren, nummeriert,
+  Reihenfolge per Ziehen oder Alt+↑/↓ ändern, abspielen oder zufällig abspielen, umbenennen, löschen
 - **Für dich:** passend zu gehörten Titeln und deinen Playlisten schlägt Vintamp ähnliche Musik vor
   („Weil du … gehört hast“), „Neu mischen“ holt neue Vorschläge
 - Ist eine Liste zu Ende, läuft es wie bei YouTube mit ähnlichen Titeln weiter

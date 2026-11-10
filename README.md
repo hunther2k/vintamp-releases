@@ -191,7 +191,7 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   Visualizer links, Inhalt rechts, Player-Leiste mit Leucht-Display unten über die ganze Breite
 - Schmal: Inhalt oben, Player-Leiste darunter, Navigation als Symbolleiste ganz unten – wie eine Handy-App
 - Kleine Pegelbalken in der Navigation zeigen, woher die Musik gerade kommt (Musik, Video, Radio oder YouTube)
-- Auf breiten Bildschirmen stehen Playlist und Sender mehrspaltig nebeneinander –
+- Auf breiten Bildschirmen stehen Musik, Videos, Sender und YouTube-Listen mehrspaltig nebeneinander –
   automatisch nach Fensterbreite oder fest 1–6 Spalten
 - Mini-Modus als schmale Leiste und „Immer im Vordergrund“
 - Merkt sich Fenstergröße und -position (auch „maximiert“ und den Mini-Modus) für den nächsten Start

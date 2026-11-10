@@ -193,7 +193,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   left, content on the right, the player bar with its glowing display across the bottom
 - Narrow: content on top, the player bar below, navigation as an icon bar at the very bottom – like a phone app
 - Small level bars in the navigation show where the music is coming from (music, video, radio or YouTube)
-- On wide screens, playlist and stations are shown in several columns side by side –
+- On wide screens, music, videos, stations and YouTube lists are shown in several columns side by side –
   automatically by window width or fixed at 1–6 columns
 - Mini mode as a slim bar and “always on top”
 - Remembers the window size and position (also “maximized” and mini mode) for the next start

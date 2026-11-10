@@ -113,8 +113,7 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 - **Für dich:** passend zu gehörten Titeln und deinen Playlisten schlägt Vintamp ähnliche Musik vor
   („Weil du … gehört hast“), „Neu mischen“ holt neue Vorschläge
 - Ist eine Liste zu Ende, läuft es wie bei YouTube mit ähnlichen Titeln weiter
-- Verlauf der gehörten Titel; „Ähnliche Titel zeigen“ und „Link kopieren“ im Rechtsklick-Menü; Titel lassen sich
-  weiterhin auch an die Musikliste hängen
+- Verlauf der gehörten Titel; „Ähnliche Titel zeigen“ und „Link kopieren“ im Rechtsklick-Menü
 - Nichts einzurichten: einfach suchen und abspielen. Das freie Hilfsprogramm yt-dlp, das YouTube-Adressen in
   einen Stream übersetzt, holt sich Vintamp beim ersten YouTube-Titel selbst (ca. 18 MB, einmalig) und hält es
   im Hintergrund aktuell

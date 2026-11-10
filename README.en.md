@@ -115,8 +115,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - **For you:** based on the songs you play and your playlists, Vintamp suggests similar music
   (“Because you played …”), “Shuffle” fetches new suggestions
 - When a list ends, playback continues with similar songs, like on YouTube
-- History of played songs; “Show similar songs” and “Copy link” in the right-click menu; songs can still be
-  added to the music list too
+- History of played songs; “Show similar songs” and “Copy link” in the right-click menu
 - Nothing to set up: just search and play. The free helper yt-dlp, which translates YouTube addresses into a
   stream, is fetched by Vintamp itself with the first YouTube track (about 18 MB, once) and kept up to date
   in the background

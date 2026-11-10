@@ -154,8 +154,8 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - **Mixer:** faders for tempo, pitch and volume with a level meter. “Key lock” changes tempo and pitch
   separately with Rubber Band R3 (studio algorithm), “Vinyl” links both like a turntable – free of
   any artifacts. A/B button to compare with the original, auto level (−14 LUFS)
-- **Graphic EQ:** parametric with high-pass and low-pass, shelves and bells – drag the points, mouse wheel
-  for Q; presets like “Remove rumble” or “Clearer voice”
+- **EQ:** the same 10-band equalizer as in the “Equalizer” section – same sliders, same presets
+  (Rock, Pop, Bass boost …), applied to the file when saving
 - You hear everything right away in the preview, the selection also in a loop
 - Save as a new file or in place of the original (the old one goes to the Recycle Bin) – MP3, FLAC, WAV, Ogg;
   tags and cover are kept

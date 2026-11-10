@@ -152,8 +152,8 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 - **Mixer:** Fader für Tempo, Tonhöhe und Lautstärke mit Pegelanzeige. „Key-Lock“ ändert Tempo und Tonhöhe
   getrennt mit Rubber Band R3 (Studio-Algorithmus), „Vinyl“ koppelt beide wie ein Plattenspieler –
   ganz ohne Artefakte. A/B-Taste zum Vergleich mit dem Original, Auto-Pegel (−14 LUFS)
-- **Grafischer EQ:** parametrisch mit Hoch- und Tiefpass, Kuhschwänzen und Glocken – Punkte ziehen,
-  Mausrad für die Güte; Voreinstellungen wie „Rumpeln weg“ oder „Stimme klarer“
+- **EQ:** derselbe 10-Band-Equalizer wie im Bereich „Equalizer“ – gleiche Regler, gleiche Voreinstellungen
+  (Rock, Pop, Bass-Boost …), wird beim Speichern in die Datei eingerechnet
 - Alles hört man sofort beim Vorhören, die Auswahl auch in Schleife
 - Speichern als neue Datei oder anstelle des Originals (das alte wandert in den Papierkorb) – MP3, FLAC, WAV, Ogg;
   Tags und Cover werden übernommen

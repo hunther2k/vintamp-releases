@@ -4,8 +4,8 @@
 
 **Der Player, wie er früher war – nur schöner.**
 Klein, schnell, startet sofort und spielt so gut wie alles: Musik und Videos direkt im Fenster,
-Internetradio (über 50.000 Sender) mit Aufnahme, Audio-Cutter, MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und
-Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
+Internetradio (über 50.000 Sender) mit Aufnahme, YouTube Music, Tempo- und Tonart-Erkennung, Tag-Editor, Audio-Cutter,
+MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
@@ -17,9 +17,21 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
   <img src="docs/equalizer.png" alt="Vintamp – 10-Band-Equalizer" width="250">
 </p>
 
-**Maximiert oder im Vollbild** – Player und großer Visualizer links, Senderliste mehrspaltig rechts:
+**Maximiert oder im Vollbild** – Navigation links, Inhalt rechts, die Player-Leiste mit Leucht-Display unten über die ganze Breite:
 
-<p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Senderliste und großem Visualizer" width="790"></p>
+<p><img src="docs/breit.png" alt="Vintamp – breite Ansicht mit Seitenleiste, Senderliste und Player-Leiste" width="790"></p>
+
+**Tempo und Tonart** – Vintamp erkennt BPM und Tonart (Camelot) jedes Titels; Titel, die harmonisch zum laufenden passen, leuchten:
+
+<p><img src="docs/musik.png" alt="Vintamp – Musikliste mit BPM- und Tonart-Spalten" width="790"></p>
+
+**Tag-Editor** – Titel, Interpret, Album, BPM, Tonart, Cover … für eine oder viele Dateien; Cue-Punkte und Beatgrids von DJ-Programmen bleiben erhalten:
+
+<p><img src="docs/tags.png" alt="Vintamp – Tag-Editor" width="790"></p>
+
+**YouTube Music** – suchen, abspielen, in die Musikliste übernehmen:
+
+<p><img src="docs/youtube.png" alt="Vintamp – YouTube-Music-Suche" width="790"></p>
 
 **Radio-Aufnahme** – ein Klick auf ●, die Sendung landet verlustfrei in einer Datei; alle Aufnahmen im eigenen Bereich:
 
@@ -29,7 +41,7 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
   <img src="docs/aufnahmen.png" alt="Vintamp – Bereich Aufnahmen mit laufender und fertigen Aufnahmen" width="390">
 </p>
 
-**Videos direkt im Fenster** – mit Untertiteln, Tonspur-Wahl und Geschwindigkeit; Klick ins Bild pausiert, Doppelklick schaltet auf Vollbild:
+**Videos direkt im Fenster** – die Bedienleiste sitzt direkt unter dem Bild, mit Untertiteln, Tonspur-Wahl und Geschwindigkeit; Klick ins Bild pausiert, Doppelklick schaltet auf Vollbild:
 
 <p><img src="docs/video.png" alt="Vintamp – Video im Vintamp-Fenster" width="790"><br>
 <sub>Im Bild: „Big Buck Bunny“ © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub></p>
@@ -60,8 +72,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 **Abspielen**
 - Spielt praktisch jedes Audioformat: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE und mehr
 - Videos (MP4, MKV, WebM, AVI …) laufen direkt im Vintamp-Fenster im Reiter „Video“ – oben der
-  Player, darunter die Videoliste; mit
-  schlanker Leiste (Zeit und Spulen oben im Player); Klick ins Bild pausiert, Doppelklick oder F
+  Player, darunter die Videoliste; die Bedienleiste (Spulen, Zurück/Play/Weiter, Lautstärke, Zeit,
+  Untertitel, Tonspur, Tempo, Vollbild) sitzt direkt unter dem Bild; Klick ins Bild pausiert, Doppelklick oder F
   schaltet Vollbild an und aus, Esc zurück – im Vollbild nur das Bild: bei Mausbewegung blendet die
   Bedienleiste (Spulen, Zeit, Weiter/Zurück, Untertitel, Lautstärke) weich darüber ein und wieder aus
 - Untertitel ein- und ausschalten oder eine Untertiteldatei (SRT, ASS, VTT …) laden – passende
@@ -76,7 +88,21 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Dateien oder ganze Ordner einfach ins Fenster ziehen
 - Doppelklick auf eine Musikdatei im Explorer spielt sie im laufenden Vintamp – kein zweites Fenster
 - Beim Titelwechsel rückt der aktuelle Titel in die Mitte – man sieht, was als Nächstes kommt
-- Titel, Interpret und Länge werden aus den Tags gelesen
+- Titel, Interpret, Länge, BPM und Tonart werden aus den Tags gelesen
+- **Tempo und Tonart:** Was in den Tags fehlt, erkennt Vintamp im Hintergrund selbst (ca. eine halbe Sekunde je
+  Titel, jede Datei nur einmal) – Spalten BPM und Tonart im Camelot-Rad; Titel, die harmonisch zum laufenden
+  passen, leuchten. Die Suche findet auch „128“ oder „8A“
+- Sortieren per Klick auf einen Spaltenkopf (Titel, Interpret, Album, BPM, Tonart, Typ, Länge)
+- **Tag-Editor** (Rechtsklick → „Tags bearbeiten …“): Titel, Interpret, Album, Album-Interpret, Jahr, Genre, Track,
+  CD, BPM, Tonart, Kommentar und Cover – auch für viele Dateien auf einmal; „Aus Dateiname“ übernimmt
+  „Interpret - Titel“, „BPM & Tonart erkennen“ füllt Tempo und Tonart aus dem Ton. Geschrieben wird verlustfrei:
+  Cue-Punkte, Beatgrids und andere Daten von DJ-Programmen bleiben erhalten
+
+**YouTube Music**
+- Eigener Bereich „YouTube“: Titel oder Videos suchen, mit Vorschaubild, Interpret, Album und Länge
+- Doppelklick spielt ab, „+“ hängt den Titel an die Musikliste (auch alle Treffer auf einmal)
+- Gespielt wird nur der Ton als Stream – nichts wird heruntergeladen oder gespeichert. Dafür braucht Vintamp
+  einmalig das freie Programm yt-dlp (ca. 18 MB), das es auf Knopfdruck selbst einrichtet und aktualisiert
 - Suche, Mehrfachauswahl (Strg/Umschalt), Reihenfolge per Maus ändern
 - Titel einzeln oder mehrere aus der Liste entfernen – Entf, Rechtsklick oder Mülleimer (ohne Auswahl leert er die Liste)
 - Zufallswiedergabe, Wiederholen (alle oder einen Titel)
@@ -144,8 +170,9 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 - Während ein Video läuft, treten die Visualizer zurück – das Bild hat Vorrang
 
 **Bedienung**
-- Maximiert oder im Vollbild (F11) zweispaltig: Player und großer Visualizer links,
-  Playlist mit Spalten (Titel, Interpret, Album, Typ, Länge) bzw. Senderliste rechts
+- Breit (maximiert oder im Vollbild, F11): Seitenleiste mit Bibliothek, Entdecken und Werkzeugen plus großem
+  Visualizer links, Inhalt rechts, Player-Leiste mit Leucht-Display unten über die ganze Breite
+- Schmal: Inhalt oben, Player-Leiste darunter, Navigation als Symbolleiste ganz unten – wie eine Handy-App
 - Auf breiten Bildschirmen stehen Playlist und Sender mehrspaltig nebeneinander –
   automatisch nach Fensterbreite oder fest 1–6 Spalten
 - Mini-Modus als schmale Leiste und „Immer im Vordergrund“
@@ -164,10 +191,8 @@ Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 | | Funktion | Darum geht's |
 |---|---|---|
-| 1 | **Tag-Editor** | Titel, Interpret, Album, Jahr, Genre, Tracknummer und Cover bearbeiten – auch für viele Dateien auf einmal, Tags aus dem Dateinamen übernehmen |
-| 2 | **YouTube Music** | Deine YouTube-Music-Bibliothek in Vintamp nutzen |
-| 3 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
-| 4 | **Linux & macOS** | Vintamp auf allen drei Systemen |
+| 1 | **Spotify** | Spotify aus Vintamp steuern: Suche, Playlists, aktueller Titel im Display (über Spotify Connect, Premium nötig) |
+| 2 | **Linux & macOS** | Vintamp auf allen drei Systemen |
 
 ## Ideen für später
 

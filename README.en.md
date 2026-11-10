@@ -4,8 +4,8 @@
 
 **The player like it used to be – only prettier.**
 Small, fast, starts instantly and plays just about anything: music and videos right in the window,
-internet radio (more than 50,000 stations) with recording, an audio cutter, MIDI with a track view, 10-band equalizer, 16 visualizers
-and a mini mode – in a modern dark design. In English and German.
+internet radio (more than 50,000 stations) with recording, YouTube Music, tempo and key detection, a tag editor, an audio cutter,
+MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in a modern dark design. In English and German.
 
 **[⬇ Download the latest version for Windows](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
@@ -19,9 +19,21 @@ and a mini mode – in a modern dark design. In English and German.
 
 <sub>Screenshots show the German interface – Vintamp switches to English automatically on an English Windows.</sub>
 
-**Maximized or full screen** – player and large visualizer on the left, station list in several columns on the right:
+**Maximized or full screen** – navigation on the left, content on the right, the player bar with its glowing display across the bottom:
 
-<p><img src="docs/breit.png" alt="Vintamp – wide view with station list and large visualizer" width="790"></p>
+<p><img src="docs/breit.png" alt="Vintamp – wide view with sidebar, station list and player bar" width="790"></p>
+
+**Tempo and key** – Vintamp detects the BPM and key (Camelot) of every track; tracks that fit the playing one harmonically light up:
+
+<p><img src="docs/musik.png" alt="Vintamp – music list with BPM and key columns" width="790"></p>
+
+**Tag editor** – title, artist, album, BPM, key, cover … for one or many files; cue points and beat grids of DJ software are kept:
+
+<p><img src="docs/tags.png" alt="Vintamp – tag editor" width="790"></p>
+
+**YouTube Music** – search, play, add to the music list:
+
+<p><img src="docs/youtube.png" alt="Vintamp – YouTube Music search" width="790"></p>
 
 **Radio recording** – one click on ●, the broadcast is saved losslessly in one file; all recordings in their own section:
 
@@ -31,7 +43,7 @@ and a mini mode – in a modern dark design. In English and German.
   <img src="docs/aufnahmen.png" alt="Vintamp – recordings section with a running and finished recordings" width="390">
 </p>
 
-**Videos right in the window** – with subtitles, audio track selection and speed; click the picture to pause, double-click for full screen:
+**Videos right in the window** – the control bar sits right below the picture, with subtitles, audio track selection and speed; click the picture to pause, double-click for full screen:
 
 <p><img src="docs/video.png" alt="Vintamp – video inside the Vintamp window" width="790"><br>
 <sub>Shown: “Big Buck Bunny” © Blender Foundation, <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></sub></p>
@@ -62,8 +74,8 @@ and a mini mode – in a modern dark design. In English and German.
 **Playback**
 - Plays practically every audio format: MP3, FLAC, OGG/Opus, AAC/M4A, WAV, WMA, APE and more
 - Videos (MP4, MKV, WebM, AVI …) play right inside the Vintamp window in the “Video” tab – player
-  on top, video list below; with a
-  slim bar (time and seeking stay up in the player); click the picture to pause, double-click or F
+  on top, video list below; the control bar (seeking, previous/play/next, volume, time, subtitles,
+  audio track, speed, full screen) sits right below the picture; click the picture to pause, double-click or F
   toggles full screen, Esc to go back – full screen shows just the picture: move the mouse and the
   control bar (seeking, time, next/previous, subtitles, volume) fades in over it and out again
 - Turn subtitles on and off or load a subtitle file (SRT, ASS, VTT …) – matching files next to the
@@ -78,7 +90,21 @@ and a mini mode – in a modern dark design. In English and German.
 - Simply drag files or whole folders into the window
 - Double-clicking a music file in Explorer plays it in the running Vintamp – no second window
 - When the track changes, the current one moves to the middle – so you see what's coming next
-- Title, artist and length are read from the tags
+- Title, artist, length, BPM and key are read from the tags
+- **Tempo and key:** whatever the tags lack, Vintamp detects itself in the background (about half a second per
+  track, each file only once) – BPM and key columns on the Camelot wheel; tracks that fit the playing one
+  harmonically light up. Search also finds “128” or “8A”
+- Sort by clicking a column header (title, artist, album, BPM, key, type, length)
+- **Tag editor** (right-click → “Edit tags …”): title, artist, album, album artist, year, genre, track, disc, BPM,
+  key, comment and cover – also for many files at once; “From file name” takes “Artist - Title”, “Detect BPM &
+  key” fills tempo and key from the audio. Writing is lossless: cue points, beat grids and other data of DJ
+  software are kept
+
+**YouTube Music**
+- Its own “YouTube” section: search songs or videos, with thumbnail, artist, album and length
+- Double-click plays, “+” appends the song to the music list (also all results at once)
+- Only the audio is played as a stream – nothing is downloaded or saved. For this, Vintamp needs the free
+  program yt-dlp (about 18 MB) once; it sets it up and updates it itself at the push of a button
 - Search, multi-select (Ctrl/Shift), reorder with the mouse
 - Remove one or several tracks from the list – Del, right-click or trash can (without a selection it clears the list)
 - Shuffle, repeat (all or one track)
@@ -146,8 +172,9 @@ and a mini mode – in a modern dark design. In English and German.
 - While a video plays, the visualizers step aside – the picture comes first
 
 **Usability**
-- Maximized or full screen (F11) in two columns: player and large visualizer on the left,
-  playlist with columns (title, artist, album, type, length) or the station list on the right
+- Wide (maximized or full screen, F11): sidebar with library, discover and tools plus a large visualizer on the
+  left, content on the right, the player bar with its glowing display across the bottom
+- Narrow: content on top, the player bar below, navigation as an icon bar at the very bottom – like a phone app
 - On wide screens, playlist and stations are shown in several columns side by side –
   automatically by window width or fixed at 1–6 columns
 - Mini mode as a slim bar and “always on top”
@@ -166,10 +193,8 @@ and a mini mode – in a modern dark design. In English and German.
 
 | | Feature | What it's about |
 |---|---|---|
-| 1 | **Tag editor** | Edit title, artist, album, year, genre, track number and cover – also for many files at once, take tags from the file name |
-| 2 | **YouTube Music** | Use your YouTube Music library in Vintamp |
-| 3 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
-| 4 | **Linux & macOS** | Vintamp on all three systems |
+| 1 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
+| 2 | **Linux & macOS** | Vintamp on all three systems |
 
 ## Ideas for later
 

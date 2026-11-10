@@ -110,6 +110,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - Search shows songs (album versions) and videos (live, remixes, covers …) together, with thumbnail, artist,
   album and length
 - Click the picture or title to play; it then moves on to the next result automatically
+- **Favourite songs** are always there: without folders of your own, “+” puts a song straight in there
 - Your own playlists as folders (“Rock”, “Trance”, “Pop” …): sort songs in with “+”, reorder by dragging, play or
   shuffle, rename, delete
 - **For you:** based on the songs you play and your playlists, Vintamp suggests similar music

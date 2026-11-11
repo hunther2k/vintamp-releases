@@ -4,7 +4,7 @@
 
 **The player like it used to be – only prettier.**
 Small, fast, starts instantly and plays just about anything: music and videos right in the window,
-internet radio (more than 50,000 stations) with recording, YouTube Music (optionally synced with your YouTube account), tempo and key detection, a tag editor, an audio cutter,
+internet radio (more than 50,000 stations) with recording, YouTube Music, tempo and key detection, a tag editor, an audio cutter,
 MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in a modern dark design. In English and German.
 
 **[⬇ Download the latest version for Windows](https://github.com/hunther2k/vintamp-releases/releases/latest)**
@@ -123,12 +123,6 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 - When a list ends, playback continues with similar songs, like on YouTube
 - The current song is highlighted under “For you” with a glowing frame and “Playing”; in the player bar, “+”
   adds it to a playlist and the target button (or a click on the title in the display) jumps to it
-- **Connect your YouTube account (optional):** your playlists are synced with your YouTube account – playlists
-  created in Vintamp appear there as “Private”, your YouTube playlists come to Vintamp, and “For you” becomes the
-  private playlist “Vintamp Recommendations”. Sign-in happens on Google’s official page in your browser (Vintamp
-  never sees your password); a free Google Cloud project of your own is needed once – the guide is in the
-  dialog. Only what you explicitly delete in Vintamp is deleted on YouTube. Without signing in, everything stays
-  in Vintamp as before
 - History of played songs; “Show similar songs” and “Copy link” in the right-click menu
 - Nothing to set up: just search and play. The free helper yt-dlp, which translates YouTube addresses into a
   stream, is fetched by Vintamp itself with the first YouTube track (about 18 MB, once) and kept up to date

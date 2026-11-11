@@ -223,7 +223,7 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
   mit allen Darstellungen und Farben
 - Display und großer Visualizer merken sich ihre Darstellung getrennt
 - Der große Visualizer füllt die Seitenleiste – mittig dahinter das Cover des laufenden Titels (YouTube-Bild,
-  Senderlogo oder das in der Datei eingebettete Cover). Das Cover lebt mit der Musik: es pulsiert mit dem Bass,
+  Senderlogo oder das in der Datei eingebettete Cover; im DJ-Pult das des gerade hörbaren Decks). Das Cover lebt mit der Musik: es pulsiert mit dem Bass,
   leuchtet in den Farben des Visualizers, der Hintergrund wird mit dem Pegel heller
 - Während ein Video läuft, treten die Visualizer zurück – das Bild hat Vorrang
 

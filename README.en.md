@@ -224,7 +224,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   with all styles and colors
 - The display and the large visualizer remember their style separately
 - The large visualizer fills the sidebar – centered behind it the cover of the current track (YouTube picture,
-  station logo or the cover embedded in the file). The cover moves with the music: it pulses with the bass,
+  station logo or the cover embedded in the file; in the DJ booth the one of the deck you currently hear). The cover moves with the music: it pulses with the bass,
   glows in the visualizer's colors and the background brightens with the level
 - While a video plays, the visualizers step aside – the picture comes first
 

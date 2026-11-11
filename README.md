@@ -4,7 +4,7 @@
 
 **Der Player, wie er früher war – nur schöner.**
 Klein, schnell, startet sofort und spielt so gut wie alles: Musik und Videos direkt im Fenster,
-Internetradio (über 50.000 Sender) mit Aufnahme, YouTube Music, Tempo- und Tonart-Erkennung, Tag-Editor, Audio-Cutter,
+Internetradio (über 50.000 Sender) mit Aufnahme, YouTube Music (auf Wunsch mit deinem YouTube-Konto abgeglichen), Tempo- und Tonart-Erkennung, Tag-Editor, Audio-Cutter,
 MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im modernen dunklen Design. Auf Deutsch und Englisch.
 
 **[⬇ Neueste Version für Windows herunterladen](https://github.com/hunther2k/vintamp-releases/releases/latest)**
@@ -119,6 +119,14 @@ MIDI mit Spur-Ansicht, 10-Band-Equalizer, 16 Visualizer und Mini-Modus – im mo
 - **Für dich:** passend zu gehörten Titeln und deinen Playlisten schlägt Vintamp ähnliche Musik vor
   („Weil du … gehört hast“), „Neu mischen“ holt neue Vorschläge
 - Ist eine Liste zu Ende, läuft es wie bei YouTube mit ähnlichen Titeln weiter
+- Der laufende Titel ist unter „Für dich“ mit Leuchtrahmen und „Läuft“ markiert; unten in der Player-Leiste legt
+  „+“ ihn in eine Playlist, die Zielscheibe (oder ein Klick auf den Titel in der Anzeige) springt zu ihm
+- **YouTube-Konto verbinden (freiwillig):** deine Playlisten werden mit deinem YouTube-Konto abgeglichen – in
+  Vintamp angelegte landen dort als „Privat“, deine YouTube-Playlisten kommen nach Vintamp, und „Für dich“ wird
+  zur privaten Playlist „Vintamp Empfehlung“. Angemeldet wird über Googles offizielle Anmeldeseite im Browser
+  (Vintamp sieht dein Passwort nie); einmalig braucht es ein kostenloses eigenes Google-Cloud-Projekt – die
+  Anleitung steht im Dialog. Gelöscht wird auf YouTube nur, was du in Vintamp ausdrücklich löschst. Ohne
+  Anmeldung bleibt alles wie bisher nur in Vintamp
 - Verlauf der gehörten Titel; „Ähnliche Titel zeigen“ und „Link kopieren“ im Rechtsklick-Menü
 - Nichts einzurichten: einfach suchen und abspielen. Das freie Hilfsprogramm yt-dlp, das YouTube-Adressen in
   einen Stream übersetzt, holt sich Vintamp beim ersten YouTube-Titel selbst (ca. 18 MB, einmalig) und hält es

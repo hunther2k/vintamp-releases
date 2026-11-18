@@ -7,7 +7,7 @@ Small, fast, starts instantly and plays just about anything: music and videos ri
 internet radio (more than 50,000 stations) with recording, YouTube Music, tempo and key detection, a tag editor, an audio cutter,
 MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in a modern dark design. In English and German.
 
-**[⬇ Download the latest version for Windows](https://github.com/hunther2k/vintamp-releases/releases/latest)**
+**[⬇ Download the latest version for Windows and Linux](https://github.com/hunther2k/vintamp-releases/releases/latest)**
 
 <p>
   <img src="docs/player.png" alt="Vintamp – player with music list" width="250">
@@ -17,7 +17,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   <img src="docs/equalizer.png" alt="Vintamp – 10-band equalizer" width="250">
 </p>
 
-<sub>Screenshots show the German interface – Vintamp switches to English automatically on an English Windows.</sub>
+<sub>Screenshots show the German interface – Vintamp switches to English automatically on an English system.</sub>
 
 **Maximized or full screen** – navigation on the left, content on the right, the player bar with its glowing display across the bottom:
 
@@ -237,8 +237,9 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
   automatically by window width or fixed at 1–6 columns
 - Mini mode as a slim bar and “always on top”
 - Remembers the window size and position (also “maximized” and mini mode) for the next start
-- Keyboard media keys and classic shortcuts (Z X C V B)
-- **English and German:** Vintamp follows the Windows language; switch it in the About dialog
+- Keyboard media keys and classic shortcuts (Z X C V B); on Linux also in the desktop's
+  media controls (MPRIS) with title and cover
+- **English and German:** Vintamp follows the system language; switch it in the About dialog
   (click the version number) – instantly, without restarting. The installer comes in both languages, too
 
 **Updates**
@@ -252,7 +253,7 @@ MIDI with a track view, 10-band equalizer, 16 visualizers and a mini mode – in
 | | Feature | What it's about |
 |---|---|---|
 | 1 | **Spotify** | Control Spotify from Vintamp: search, playlists, current song in the display (via Spotify Connect, Premium required) |
-| 2 | **Linux & macOS** | Vintamp on all three systems |
+| 2 | **macOS** | The third system after Windows and Linux |
 
 ## Ideas for later
 
@@ -266,7 +267,7 @@ What else is possible – in no particular order:
 - **Radio extras:** radio alarm clock, sleep timer, recording at a set time
 - **Podcasts:** subscribe, new episodes automatically, continue where you left off
 - **Tools:** convert files (e.g. FLAC → MP3), normalize the loudness of files
-- **Comfort:** custom colors and themes, freely assignable shortcuts, Windows media overlay
+- **Comfort:** custom colors and themes, freely assignable shortcuts, AUR package for Arch, Windows media overlay
   with cover, Last.fm scrobbling
 - **Casting:** send music to Chromecast or DLNA devices on your home network
 - **Portable version:** without installation, e.g. from a USB stick
@@ -279,11 +280,29 @@ What else is possible – in no particular order:
 
 ## Installation
 
-1. [Download the latest version](https://github.com/hunther2k/vintamp-releases/releases/latest)
-   (`Vintamp_x.y.z_x64-setup.exe`)
+All files are under [latest release](https://github.com/hunther2k/vintamp-releases/releases/latest).
+
+### Windows
+
+1. Download `Vintamp_x.y.z_x64-setup.exe`
 2. Run the installer – done. Vintamp appears in the Start menu.
 
-**Requirements:** Windows 10 or 11, 64-bit. Linux and macOS will follow.
+**Requirements:** Windows 10 or 11, 64-bit.
+
+### Linux
+
+Same features, same look as on Windows. Three packages to choose from – all of them update themselves:
+
+| Package | For | Install |
+|---|---|---|
+| `Vintamp_x.y.z_amd64.AppImage` | **any distribution** – e.g. Arch, CachyOS, Manjaro, EndeavourOS, openSUSE | make it executable and run it:<br>`chmod +x Vintamp_*.AppImage && ./Vintamp_*.AppImage` |
+| `Vintamp_x.y.z_amd64.deb` | Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin | `sudo apt install ./Vintamp_*_amd64.deb` |
+| `Vintamp-x.y.z-1.x86_64.rpm` | Fedora | `sudo dnf install ./Vintamp-*.x86_64.rpm` |
+
+**Requirements:** 64-bit, Ubuntu 24.04 / Linux Mint 22 / Debian 13 / Fedora 40 or newer, or any current
+rolling-release distribution. The AppImage brings its own playback engine (libmpv); if it doesn't start,
+FUSE 2 is usually missing (Arch/CachyOS: `sudo pacman -S fuse2`, Ubuntu: `sudo apt install libfuse2t64`).
+On Wayland, Vintamp runs through XWayland automatically so videos can appear inside the window.
 
 ## Updates
 
@@ -298,6 +317,8 @@ Feel free to open an [issue](https://github.com/hunther2k/vintamp-releases/issue
 ## Thanks
 
 - Playback: [mpv](https://mpv.io)
+- Fonts on Linux: [Selawik](https://github.com/microsoft/Selawik) and
+  [Cascadia Mono](https://github.com/microsoft/cascadia-code) by Microsoft – SIL Open Font License
 - Internet radio directory: [radio-browser.info](https://www.radio-browser.info)
 - MIDI sounds: [GeneralUser GS](https://schristiancollins.com/generaluser.php) by S. Christian Collins
   (copy with license under [Releases](https://github.com/hunther2k/vintamp-releases/releases/tag/assets-soundfont))

@@ -290,18 +290,38 @@ Alle Dateien liegen unter [Neueste Version](https://github.com/hunther2k/vintamp
 
 ### Linux
 
-Gleiche Funktionen, gleiche Optik wie unter Windows. Drei Pakete zur Wahl – alle aktualisieren sich selbst:
+Gleiche Funktionen, gleiche Optik wie unter Windows – für jede aktuelle Distribution
+(z. B. CachyOS, Arch, Manjaro, Ubuntu, Linux Mint, Fedora, openSUSE).
+
+**Am einfachsten:** diesen Befehl ins Terminal kopieren und Enter drücken:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/hunther2k/vintamp-releases/main/install.sh | sh
+```
+
+Vintamp wird geladen, startet und trägt sich selbst ins Startmenü ein – mit Symbol und
+„Öffnen mit Vintamp“ für Musik und Videos. Danach startest du es ganz normal übers Menü,
+Updates kommen von allein.
+
+**Ohne Terminal:** `Vintamp_x.y.z_amd64.AppImage` herunterladen → Rechtsklick → **Eigenschaften** →
+**Berechtigungen** → Haken bei **Ausführbar** → Doppelklick. Vintamp richtet sich dann genauso selbst ein
+(die Datei aus dem Download-Ordner zieht dabei an ihren festen Platz).
+
+**Entfernen:** im Startmenü Rechtsklick auf Vintamp → **Vintamp entfernen**.
+
+<details>
+<summary>Lieber als Paket der Distribution (.deb / .rpm)</summary>
 
 | Paket | Für | Installieren |
 |---|---|---|
-| `Vintamp_x.y.z_amd64.AppImage` | **jede Distribution** – z. B. Arch, CachyOS, Manjaro, EndeavourOS, openSUSE | ausführbar machen und starten:<br>`chmod +x Vintamp_*.AppImage && ./Vintamp_*.AppImage` |
 | `Vintamp_x.y.z_amd64.deb` | Ubuntu, Linux Mint, Debian, Pop!_OS, Zorin | `sudo apt install ./Vintamp_*_amd64.deb` |
 | `Vintamp-x.y.z-1.x86_64.rpm` | Fedora | `sudo dnf install ./Vintamp-*.x86_64.rpm` |
 
+Auch diese Pakete aktualisieren sich selbst.
+</details>
+
 **Voraussetzung:** 64 Bit, ab Ubuntu 24.04 / Linux Mint 22 / Debian 13 / Fedora 40 bzw. jede aktuelle
-Rolling-Release-Distribution. Das AppImage bringt die Wiedergabe-Engine (libmpv) selbst mit; startet es nicht,
-fehlt meist FUSE 2 (Arch/CachyOS: `sudo pacman -S fuse2`, Ubuntu: `sudo apt install libfuse2t64`).
-Unter Wayland läuft Vintamp automatisch über XWayland, damit Videos im Fenster erscheinen.
+Rolling-Release-Distribution. Unter Wayland läuft Vintamp automatisch über XWayland, damit Videos im Fenster erscheinen.
 
 ## Updates
 
